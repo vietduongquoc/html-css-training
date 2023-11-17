@@ -329,6 +329,30 @@ header {
 .about-icon {
     width: 32px;
     height: 32px;
-    flex-shrink: 0 ;
+    flex-shrink: 0;
     text-align: center;
+}
+
+/* Product */
+
+.content-product {
+    width: 624px;
+    height: 566px;
+}
+
+.product1 {
+    display: flex;
+    margin: none;
+}
+
+.img-product1 {
+    padding: 8px 8px 8px 8px ;
+    width: 504px;
+    height: 480px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.product2 {
+    display: flex;
 }
