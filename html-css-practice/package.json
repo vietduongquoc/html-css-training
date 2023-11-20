@@ -3,7 +3,7 @@
     "source": "src/index.html",
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "scripts": {
-        "start": "parcel",
+        "start": "parcel ./npx parcel src/index.htmlsrc/index.html",
         "dev": "parcel ./src/index.html",
         "build": "rm -rf build && rm -rf .parcel-cache && parcel build ./src/index.html --no-cache --no-source-maps --dist-dir dist"
     },
