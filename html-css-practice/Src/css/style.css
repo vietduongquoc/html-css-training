@@ -47,7 +47,7 @@ header {
 }
 
 .img-header {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     flex-shrink: 0;
 }
@@ -140,6 +140,10 @@ header {
 
 
 /* Category */
+
+.category{
+    width: 100vw;
+}
 
 .category-heading {
     display: flex;
@@ -247,8 +251,6 @@ header {
     padding-right: 117px;
 }
 
-
-
 .post1-icon-file,
 .post2-icon-star,
 .post3-icon-crown,
@@ -336,15 +338,15 @@ header {
 /* Product */
 
 .content-product {
-    width: 1660px;
-    height: 1000px;
+    width: 100vw;
+    height: 950px;
 
 }
 
 .product1 {
     display: flex;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     padding-left: 200px;
 }
 
@@ -468,6 +470,7 @@ header {
     align-items: flex-start;
     gap: 50px;
     background-color: var(--text-gray-100, #F4F5F7);
+    width: 100vw;
 }
 
 .heading-sponner {
@@ -506,7 +509,7 @@ header {
 /* Contact */
 
 .content-contact {
-    width: 100%;
+    width: 100vw;
     height: 700px;
     background: #FFF;
 }
@@ -569,7 +572,7 @@ header {
 /* Footer */
 
 footer {
-    width: 100%;
+    width: 100vw;
     height: 536px;
     flex-shrink: 0;
     background: #F8464A;
