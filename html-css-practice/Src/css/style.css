@@ -181,12 +181,8 @@ header {
     width: 1700px;
 }
 
-.post1-content,
-.post2-content,
-.post3-content,
-.post4-content,
-.post5-content,
-.post6-content {
+.category-post-content
+{
     color: #000;
     text-align: center;
     font-family: Manrope;
@@ -201,12 +197,7 @@ header {
     flex-shrink: 0;
 }
 
-.post1-heading,
-.post2-heading,
-.post3-heading,
-.post4-heading,
-.post5-heading,
-.post6-heading {
+.category-post-heading {
     color: #000;
     text-align: center;
     font-family: Manrope;
@@ -216,47 +207,43 @@ header {
     line-height: normal;
 }
 
-.post1-icon-1 {
+.category-post1-icon-1 {
     text-align: right;
     margin-bottom: -45px;
     padding-right: 112px;
 }
 
-.post2-icon-2 {
+.category-post2-icon-2 {
     margin-bottom: -55px;
     padding-left: 105px;
 }
 
-.post3-icon-3 {
+.category-post3-icon-3 {
     text-align: right;
     margin-bottom: -53px;
     padding-right: 100px;
 }
 
-.post4-icon-4 {
+.category-post4-icon-4 {
     margin-bottom: -50px;
     padding-left: 112px;
 
 }
 
-.post5-icon-5 {
+.category-post5-icon-5 {
     text-align: right;
     margin-bottom: -45px;
     padding-right: 103px;
 }
 
-.post6-icon-6 {
+.category-post6-icon-6 {
     text-align: right;
     margin-bottom: -45px;
     padding-right: 117px;
 }
 
-.post1-icon-file,
-.post2-icon-star,
-.post3-icon-crown,
-.post4-icon-chartbar,
-.post5-icon-chartpieslice,
-.post6-icon-figmalogo {
+.category-post-icon
+ {
     text-align: center;
 }
 
@@ -321,10 +308,7 @@ header {
     margin-top: 20px;
 }
 
-.about-post1,
-.about-post2,
-.about-post3,
-.about-post4 {
+.about-post {
     width: 200px;
 }
 
@@ -590,30 +574,12 @@ footer {
     color: var(--text-disable, #d3d3d3);
     font-weight: 400;
     line-height: 32px;
+    padding-top: 50px;
+    padding-left: 140px;
 }
 
-.column1-footer,
-.column2-footer,
-.column3-footer,
-.column4-footer,
-.column5-footer {
+.column-footer{
     list-style: none;
-}
-
-.column1-footer {
-    padding: 70px 1px 1px 140px;
-}
-
-.column2-footer {
-    padding: 70px 1px 1px 1px;
-}
-
-.column3-footer {
-    padding: 70px 1px 1px 1px;
-}
-
-.column4-footer {
-    padding: 70px 1px 1px 1px;
 }
 
 li {
@@ -628,7 +594,7 @@ li {
     font-weight: 400;
     line-height: 32px;
     display: flex;
-    padding-left: 140px;
+    padding-left: 175px;
     margin-top: 10px;
     color: var(--text-white, #FFF);
 }
@@ -638,10 +604,7 @@ li {
     padding-left: 1450px;
 }
 
-.logo-footer1,
-.logo-footer2,
-.logo-footer3,
-.logo-footer4,
-.logo-footer5 {
+.link-logo-footer
+ {
     margin: 16px;
 }
