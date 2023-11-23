@@ -130,12 +130,12 @@ header {
     border-radius: 8px;
     /* background: #FFF;  */
     padding: 19px 134px 18px 32px;
-    inline-size: none;
+    /* inline-size: none; */
 }
 
 .input-header:hover {
     border: none;
-    inline-size: none;
+    /* inline-size: none; */
 }
 
 
@@ -569,7 +569,7 @@ footer {
     font-family: Inter;
     font-style: normal;
     line-height: 32px;
-    font-size: 16x;
+    font-size: 16px;
     justify-content: space-between;
     color: var(--text-disable, #d3d3d3);
     font-weight: 400;
