@@ -5,15 +5,15 @@
   padding: 60px 0;
   background-color: var(--text-gray-100, #f4f5f7);
   width: 100%;
+  font-family: Manrope;
+  font-style: normal;
 }
 
 .title-sponsor {
   color: var(--text-gray-900, #18191f);
   text-align: center;
   font-feature-settings: "salt" on, "liga" off;
-  font-family: Manrope;
   font-size: 48px;
-  font-style: normal;
   font-weight: 800;
   line-height: 64px;
 }
@@ -22,9 +22,7 @@
   color: var(--text-gray-900, #18191f);
   text-align: center;
   font-feature-settings: "salt" on, "liga" off;
-  font-family: Manrope;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px;
   padding-bottom: 49px;
@@ -40,22 +38,16 @@
 }
 
 .background-logo-sponsor {
-  background: url(/src/assets/images/sponsor/bg-logo-sp.png);
   width: 170px;
   height: 96px;
   text-align: center;
   border-radius: 16px;
   background: var(--default-white, #FFF);
   box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.20);
-
 }
 
 .logo-borusan-sponsor {
-  width: 134px;
-  height: 67px;
   margin-top: 14px;
-  background-position: center;
-
 }
 
 .logo-two-sponsor {
@@ -66,38 +58,27 @@
 }
 
 .logo-istanbul-sponsor {
-  width: 122px;
-  height: 61px;
   margin-top: 17px;
 }
 
 .logo-bookmyshow-sponsor {
-  width: 123px;
-  height: 37px;
-  flex-shrink: 0;
   margin-top: 29px;
 }
 
 .logo-three-sponsor {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
 }
 
 .logo-akbank-sponsor {
-  width: 132px;
-  height: 66px;
   flex-shrink: 0;
   margin-top: 14px;
 }
 
 .logo-akcansa-sponsor {
   margin-top: 14px;
-  width: 132px;
-  height: 66px;
   flex-shrink: 0;
-
 }
 
 .logo-tumunugor-sponsor {
@@ -109,9 +90,7 @@
   gap: 10px;
   color: #F84646;
   text-align: center;
-  font-family: Manrope;
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 32px;
   margin-top: 21px;
@@ -122,36 +101,20 @@
   color: blue;
 }
 
-.click-logo-tumunugor-sponsor {
-  gap: 10px;
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-}
-
 .logo-four-sponsor {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
 }
 
 .logo-aktas-sponsor {
-  width: 118px;
-  height: 59px;
-  flex-shrink: 0;
   margin-top: 18px;
 }
 
 .logo-ola-sponsor {
-  width: 98px;
-  height: 34px;
-  flex-shrink: 0;
   margin-top: 30px;
 }
 
 .logo-amazon-sponsor {
-  width: 103px;
-  height: 32px;
   margin-top: 31px;
 }
