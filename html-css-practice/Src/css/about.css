@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 .about-background {
   background-image: url(/src/assets/images/about/about-bg-img.png);
@@ -9,66 +9,69 @@
   background-size: cover;
   color: var(--default-white, #fff);
   text-align: center;
-  font-feature-settings: "liga" off;
-  font-family: Manrope;
-  font-style: normal;
+  margin: 0 auto;
+  padding: 68px 0 78px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.about-heading {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-title {
   font-size: 48px;
-  font-weight: 800;
   line-height: 64px;
-  padding-top: 67px;
 }
 
 .about-description {
   font-size: 18px;
-  font-weight: 400;
   line-height: 32px;
-  margin-top: 8px;
 }
 
 .about-content {
   display: flex;
-  font-feature-settings: "liga" off;
+  gap: 49px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.about-post-content {
+  display: flex;
+  flex-direction: row;
+  gap: 49px;
+  width: max-content;
   font-size: 18px;
   font-weight: 700;
+  align-items: center;
+}
+
+.about-post-content>p {
+  text-align: start;
   line-height: 31px;
-  width: 1088px;
-  margin: 0 auto;
-  padding: 76px 0;
-  margin-top: -10px;
 }
 
-.about-content-post-1 {
+#about-content-post-first {
   width: 146px;
-  height: 62px;
-  margin-right: 46px;
 }
 
-.about-content-post-2 {
+#about-content-post-second {
   width: 199px;
-  height: 62px;
-  margin-left: 49px;
-  margin-right: 46px;
 }
 
-.about-content-post-3 {
+#about-content-post-third {
   width: 181px;
-  height: 62px;
-  margin-left: 49px;
-  margin-right: 45px;
 }
 
-.about-content-post-4 {
+#about-content-post-four {
   width: 182px;
-  height: 62;
-  margin-left: 49px;
 }
 
 .about-icon {
   width: 32px;
   height: 32px;
-  margin-top: 15px;
-  cursor:grab;
+  cursor: grab;
 }

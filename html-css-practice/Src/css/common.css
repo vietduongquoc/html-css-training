@@ -1,0 +1,20 @@
+.button {
+  background-color: #f84646;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.text-font {
+  font-family: Manrope;
+  font-style: normal;
+}
+
+.text-title {
+  font-weight: 800;
+}
+
+.text-description {
+  font-weight: 400;
+}

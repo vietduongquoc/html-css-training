@@ -6,8 +6,6 @@ header {
   background-image: url("/src/assets/images/header/header.background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: Manrope;
-  font-style: normal;
 }
 
 * {
@@ -19,12 +17,12 @@ header {
   padding-bottom: 147px;
   padding-left: 122px;
   padding-top: 108px;
+  margin: 0 auto;
 }
 
 .content-title {
   width: 665px;
   font-size: 64px;
-  font-weight: 800;
   line-height: 82px;
   margin-top: 29px;
 }
@@ -33,7 +31,6 @@ header {
   width: 650px;
   height: 99px;
   font-size: 20px;
-  font-weight: 400;
   line-height: 36px;
   letter-spacing: 0.2px;
   margin-top: -22px;
@@ -63,24 +60,17 @@ header {
   color: #000;
 }
 
-.links:hover {
-  color: #fff;
-  padding: 10px;
-  background-color: #f84646;
-  font-weight: 700;
-}
-
-.link {
+.nav-links>li:last-child {
   text-decoration: none;
   color: #000;
   border-radius: 8px;
   font-size: 14px;
   font-weight: 700;
-  margin-left: 10px;
-  padding: 10px 20px
+  margin-left: 20px;
+  padding-top: 0;
 }
 
-.link:hover {
+.links:hover {
   color: #fff;
   padding: 10px;
   background-color: #f84646;
@@ -89,17 +79,12 @@ header {
 
 .button-header {
   margin: 7px 8px 6px 0px;
-  border-radius: 8px;
-  color: #fff;
   font-size: 16px;
   font-weight: 700;
   line-height: 37px;
   letter-spacing: 0.2px;
   width: 150px;
   height: 61px;
-  background-color: #f84646;
-  border: none;
-  cursor: pointer;
 }
 
 .button-header:hover {
