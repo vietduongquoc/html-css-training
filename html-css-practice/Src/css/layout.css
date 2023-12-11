@@ -1,0 +1,14 @@
+.container-medium {
+  width: 100%;
+  max-width: 946px;
+}
+
+.container-large {
+  width: 100%;
+  max-width: 1088px;
+}
+
+.container-extra-large {
+  width: 100%;
+  max-width: 1197px;
+}

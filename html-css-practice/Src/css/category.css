@@ -5,27 +5,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Manrope;
   line-height: normal;
-  font-style: normal;
+  width: 100%;
+  max-width: 1153px;
+  padding-top: 120px;
+  margin: 0 auto;
+  padding-bottom: 3px;
 }
 
 .category-heading {
   font-size: 36px;
-  font-weight: 800;
-  padding: 120px 0px 37px 15px;
 }
 
 .category-description {
-  display: flex;
-  align-items: center;
-  padding: 1px 206px 2px 223px;
-  width: 1440px;
+  width: 100%;
+  max-width: 994px;
   text-align: center;
   font-size: 24px;
-  font-weight: 400;
   line-height: 39.5px;
   letter-spacing: 0.2px;
+  margin-top: 37px;
 }
 
 .category-post {
@@ -35,8 +34,9 @@
   align-items: center;
   padding-bottom: 89px;
   padding-top: 39px;
-  width: 1153px;
+  max-width: 1153px;
   height: 726px;
+  width: 100%;
 }
 
 .category-post-heading-icon-file {
@@ -128,6 +128,9 @@
   line-height: 28px;
 }
 
+.update {
+  background-color: #fff;
+}
 
 .category-post-heading-icon-chartbar {
   text-align: center;
