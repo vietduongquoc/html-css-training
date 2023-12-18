@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    width: 1200px;
+    padding: 100px 0;
+    border: solid red;
+}
+
+.content-header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    flex-direction: column;
+}
+
+/* .image-header {
+    display: block;
+    flex-direction: column;
+} */
+
+/* header {
+    background-color: antiquewhite;
+} */
+
+@media only screen and (max-width: 900px) {
+    header {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 901) {
+    header {
+        width: 100%;
+        background-color: aqua;
+    }
+}
+
+@media only screen and (min-width: 1000) {
+    header {
+        width: 100%;
+        background-color: green;
+    }
+}
+
+/* @media only screen and screen and (max-width:500px) {
+    header {
+        background-color: aqua;
+    }
+} */
