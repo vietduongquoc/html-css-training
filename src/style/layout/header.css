@@ -36,30 +36,6 @@ header {
   margin-top: 8px;
 }
 
-.header-xlarge {
-  padding: 7px 8px;
-  border-radius: 10px;
-  background: rgba(196, 196, 196, 0.15);
-  border: none;
-  align-items: center;
-}
-
-.header-xlarge:hover {
-  background-color: #29c0e6;
-}
-
-.header-bar-item {
-  color: rgba(255, 255, 255, 0.50);
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.header-bar-item:hover {
-  color: #FFF;
-  font-size: 24px;
-  font-weight: 700;
-}
-
 .title-logo-header {
   color: #FFF;
   font-size: 18px;
