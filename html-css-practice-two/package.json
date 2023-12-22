@@ -8,7 +8,7 @@
         "build": "rm -rf build && rm -rf .parcel-cache && parcel build ./src/index.html --no-cache --no-source-maps --dist-dir dist"
     },
     "devDependencies": {
-        "parcel": "^2.9.3",
+        "parcel": "^2.10.3",
         "posthtml-expressions": "^1.11.1",
         "posthtml-include": "^1.7.4"
     }
