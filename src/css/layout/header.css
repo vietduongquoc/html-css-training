@@ -16,11 +16,11 @@ header {
 }
 
 .header-wrapper {
- padding: 0 35px;
+  padding: 0 35px;
 }
 
 .header-heading {
-  max-width: 675px;
+  max-width: 668px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -51,14 +51,14 @@ header {
 }
 
 
-.header-nav .responsive .dropdown-header {
+/* .header-nav .dropdown-header {
   float: none;
-}
+} */
 
-.dropdown-header {
+/* .dropdown-header {
   float: left;
   overflow: hidden;
-}
+} */
 
 
 .icon-dropdown-header {
@@ -69,7 +69,7 @@ header {
   padding: 7px 8px;
 }
 
-.dropdown-header .dropbtn {
+/* .dropdown-header .dropbtn {
   font-size: 17px;
   border: none;
   outline: none;
@@ -77,16 +77,13 @@ header {
   padding: 12px 14px;
   background-color: inherit;
   margin: 0;
-}
+} */
 
-.dropdown-content-header {
+/* .dropdown-content-header {
   display: none;
-  position: absolute;
-  /* background-color: #f9f9f9; */
-  /* max-width: 20px; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
+  z-index: 10;
+} */
 
 .dropdown-content-header a {
   float: none;
@@ -105,16 +102,12 @@ header {
   border-radius: 8px;
 }
 
-.dropdown-content-header a:hover {
+/* .dropdown-content-header a:hover {
   background-color: #17C2EC;
   color: #FFF;
   font-size: 14px;
   font-weight: 500;
-}
-
-.dropdown-header:hover .dropdown-content-header {
-  display: block;
-}
+} */
 
 .content-header {
   /* max-width: 305px; */
@@ -150,11 +143,11 @@ header {
 
 .button-header {
   width: 100%;
-  /* max-width: 295px; */
+  max-width: 295px;
   display: flex;
   justify-content: space-between;
-  padding-top: 42px;
-  padding-bottom: 35px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .get-vaccine {
@@ -209,14 +202,12 @@ header {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
   max-width: 50px;
   height: 50px;
-  flex-shrink: 0;
   width: 100%;
 }
 
 .image-doctor-avatar {
   /* width: 40px; */
   height: 32.695px;
-  flex-shrink: 0;
   width: 100%;
 }
 
@@ -229,13 +220,11 @@ header {
   padding: 6.5px 5px;
   width: 50px;
   height: 50px;
-  flex-shrink: 0;
 }
 
-.image-corona {
+.image-corona-header {
   /* width: 40px; */
   height: 36.522px;
-  flex-shrink: 0;
   width: 100%;
 }
 
@@ -246,11 +235,11 @@ header {
   border-radius: 20px;
   background: rgba(196, 196, 196, 0.20);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  /* max-width: 238px; */
+  max-width: 238px;
   width: 100%;
   height: 70px;
   padding: 15px;
-  /* margin-left: -70px; */
+  margin-left: -70px;
 }
 
 .specialist {
@@ -270,7 +259,6 @@ header {
   max-width: 108px;
   width: 100%;
   height: 38.802px;
-  flex-shrink: 0;
   display: flex;
 }
 
@@ -279,14 +267,17 @@ header {
 }
 
 .clock-image {
-  padding-top: 59px;
-  padding-bottom: 20px;
+  padding-top: 43px;
+  padding-bottom: 25px;
   display: flex;
-  /* max-width: 239px; */
   width: 100%;
-  justify-content: space-between;
   color: #FFF;
   align-items: center;
+  max-width: 405.688px;
+  width: 100%;
+  /* height: 50px; */
+  /* margin-top: 43px;
+  margin-bottom: 25px; */
 }
 
 .clock-wrap {
@@ -296,7 +287,6 @@ header {
   max-width: 30px;
   width: 100%;
   height: 30px;
-  flex-shrink: 0;
 }
 
 .content-clock {
@@ -309,27 +299,22 @@ header {
 }
 
 .wrap-address-header {
-  /* max-width: 305px; */
   width: 100%;
-  height: 242px;
   border-radius: 20px 20px 0px 0px;
-  background: rgba(196, 196, 196, 0.05);
-  padding: 11px 1px 0px 1px;
 }
 
 .address-header {
-  /* max-width: 305px; */
   width: 100%;
-  height: 231px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   color: #FFF;
   font-size: 14px;
   font-weight: 700;
   border-radius: 20px 20px 0px 0px;
   background: rgba(196, 196, 196, 0.10);
-  justify-content: space-around;
-  padding-left: 10px;
+  /* justify-content: space-around; */
+  box-shadow: 1px -11px rgba(196, 196, 196, 0.05);
+  padding: 10px 0px 20px 10px;
 }
 
 .name-address {
@@ -345,33 +330,30 @@ header {
   padding: 5px;
   width: 30px;
   height: 30px;
-  margin-top: 3px;
+  /* background-size: cover; */
+  margin-right: 10px;
 }
 
 .image-address-header {
-  /* max-width: 203.276px; */
   width: 100%;
-  height: 140px;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  padding-top: 10px;
+  flex-wrap: wrap;
 }
 
 .padding-address-header {
-  max-width: 187.031px;
   width: 100%;
-  height: 34px;
-  flex-shrink: 0;
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 .content-address-header {
   max-width: 147px;
   width: 100%;
   height: 34px;
+  position: relative;
 }
+
 
 .submit-header {
   display: flex;
@@ -380,8 +362,6 @@ header {
   padding: 20px 25px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
   border-radius: 10px;
   background: #17C2EC;
   color: #FFF;
@@ -392,4 +372,222 @@ header {
 
 .submit-header:hover {
   background-color: aqua;
+}
+
+@media screen and (min-width: 768px) {
+  /* header {
+    position: relative;
+    background-image: url("/src/assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+  .button-header {
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+  }
+
+  .get-vaccine,
+  .help-centre {
+    max-width: 175px;
+    width: 100%;
+    height: 64px;
+  }
+
+  .header-wrapper {
+    padding: 0 50px;
+  }
+
+  .title-logo-header {
+    width: 100%;
+    height: 31.076px;
+    font-size: 25.498px;
+    font-weight: 700;
+  }
+
+  .title-header {
+    font-size: 18px;
+  }
+
+  .heading-header {
+    font-size: 36px;
+    max-width: 414px;
+    width: 100%;
+    height: 132px;
+  }
+
+  .description-header {
+    font-size: 20px;
+    max-width: 502px;
+    width: 100%;
+    height: 48px;
+  }
+
+  .image-header {
+    height: 617px;
+    width: 100%;
+    max-width: 622px;
+  }
+
+  .image-corona-vaccine-header {
+    max-width: 532.127px;
+    height: 571px;
+    width: 100%;
+  }
+
+  .doctor-avatar,
+  .corona-virus {
+    max-width: 100px;
+    height: 100px;
+    width: 100%;
+    padding: 17px 10px;
+  }
+
+  .image-doctor-avatar,
+  .image-corona-header {
+    width: 100%;
+    height: 65.389px;
+
+  }
+
+  .class-doctor {
+    max-width: 374px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    bottom: -17px;
+    box-shadow: 0 4px 4px #0000001a, 0 4px 4px #00000040;
+    margin-left: -244px;
+    padding: 20px;
+  }
+
+  .image-three-doctor {
+    max-width: 167px;
+    width: 100%;
+    height: 60px;
+
+  }
+
+  .specialist {
+    max-width: 100%;
+    max-width: 134px;
+    height: 51px;
+
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 134px;
+    height: 51px;
+    font-size: 24px;
+    /* right: 18px; */
+  }
+
+  .clock-wrap {
+    max-width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .content-clock {
+    font-size: 24px;
+    max-width: 336px;
+    width: 100%;
+  }
+
+  .address-image {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 auto;
+  }
+
+  .wrap-image-header {
+    max-width: 49.962px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .address-header {
+    padding: 37px 0 1px 12px;
+    display: flex;
+  }
+
+  .padding-address-header {
+    display: flex;
+    align-items: center;
+    width: calc(100%/2);
+    justify-content: space-around;
+    margin-bottom: 45px;
+  }
+
+  .content-address-header {
+    max-width: 246.81px;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .submit-header {
+    max-width: 253px;
+    width: 100%;
+    padding: 20px 25px;
+    height: 64px;
+    font-size: 20px;
+    margin-left: -60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-wrapper {
+    padding: 0 70px;
+  }
+
+  .header-heading {
+    max-width: 1299px;
+    width: 100%;
+  }
+
+  .icon-dropdown-header {
+    display: none;
+  }
+
+
+  .dropdown-content-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  .header-nav.responsive {
+    position: relative;
+  }
+
+  .header-nav.responsive .icon-dropdown-header {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .header-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* .header-nav.responsive .dropdown-header {
+    float: none;
+  } */
+
+  .header-nav.responsive .dropdown-content-header {
+    position: relative;
+  }
+
+  .header-nav.responsive .dropdown-header .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
 }
