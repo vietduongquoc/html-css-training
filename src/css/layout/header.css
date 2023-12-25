@@ -20,13 +20,13 @@ header {
 }
 
 .header-heading {
-  max-width: 305px;
+  max-width: 675px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 30px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .logo-header {
@@ -45,7 +45,7 @@ header {
   color: #FFF;
   font-size: 18px;
   font-weight: 700;
-  max-width: 200px;
+  /* max-width: 200px; */
   width: 100%;
   padding-top: 6px;
 }
@@ -117,7 +117,7 @@ header {
 }
 
 .content-header {
-  max-width: 305px;
+  /* max-width: 305px; */
   width: 100%;
 }
 
@@ -144,13 +144,13 @@ header {
   color: rgba(255, 255, 255, 0.70);
   font-size: 14px;
   font-weight: 700;
-  width: 271px;
+  /* width: 271px; */
   height: 51px;
 }
 
 .button-header {
   width: 100%;
-  max-width: 295px;
+  /* max-width: 295px; */
   display: flex;
   justify-content: space-between;
   padding-top: 42px;
@@ -193,7 +193,7 @@ header {
 
 .image-header {
   position: relative;
-  width: 306px;
+  /* width: 306px; */
   height: 309px;
   display: flex;
   justify-content: center;
@@ -207,15 +207,17 @@ header {
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
-  width: 50px;
+  max-width: 50px;
   height: 50px;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .image-doctor-avatar {
-  width: 40px;
+  /* width: 40px; */
   height: 32.695px;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .corona-virus {
@@ -231,9 +233,10 @@ header {
 }
 
 .image-corona {
-  width: 40px;
+  /* width: 40px; */
   height: 36.522px;
   flex-shrink: 0;
+  width: 100%;
 }
 
 .class-doctor {
@@ -243,11 +246,11 @@ header {
   border-radius: 20px;
   background: rgba(196, 196, 196, 0.20);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  max-width: 238px;
+  /* max-width: 238px; */
   width: 100%;
   height: 70px;
   padding: 15px;
-  margin-left: -70px;
+  /* margin-left: -70px; */
 }
 
 .specialist {
@@ -279,7 +282,7 @@ header {
   padding-top: 59px;
   padding-bottom: 20px;
   display: flex;
-  max-width: 239px;
+  /* max-width: 239px; */
   width: 100%;
   justify-content: space-between;
   color: #FFF;
@@ -306,7 +309,7 @@ header {
 }
 
 .wrap-address-header {
-  max-width: 305px;
+  /* max-width: 305px; */
   width: 100%;
   height: 242px;
   border-radius: 20px 20px 0px 0px;
@@ -315,7 +318,7 @@ header {
 }
 
 .address-header {
-  max-width: 305px;
+  /* max-width: 305px; */
   width: 100%;
   height: 231px;
   display: flex;
@@ -346,7 +349,7 @@ header {
 }
 
 .image-address-header {
-  max-width: 203.276px;
+  /* max-width: 203.276px; */
   width: 100%;
   height: 140px;
   display: flex;
@@ -356,7 +359,8 @@ header {
 }
 
 .padding-address-header {
-  width: 187.031px;
+  max-width: 187.031px;
+  width: 100%;
   height: 34px;
   flex-shrink: 0;
   display: flex;
