@@ -50,63 +50,17 @@ header {
   padding-top: 6px;
 }
 
-/* .header-nav .dropdown-header {
-  float: none;
-} */
-
-/* .dropdown-header {
-  float: left;
-  overflow: hidden;
+.toggle-input {
+  display: none; /* ẩn checkbox đi */
 }
 
-
-.icon-dropdown-header {
-  width: 45px;
-  height: 45px;
-  border-radius: 10px;
-  background: rgba(196, 196, 196, 0.15);
-  padding: 7px 8px;
+.navbar {
+  display: none; /* ẩn .navbar sẵn */
 }
 
-/* .dropdown-header .dropbtn {
-  font-size: 17px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 12px 14px;
-  background-color: inherit;
-  margin: 0;
-} */
-
-/* .dropdown-content-header {
-  display: none;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-} */
-
-.dropdown-content-header a {
-  float: none;
-  padding: 10px 5px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
-  font-weight: 500;
-  text-align: start;
+.toggle-input:checked ~ .navbar { /* checkbox mà được check thì .navbar sẽ có style sau */
+  display: block; /* hiện .navbar */
 }
-
-.header-nav a:hover,
-.dropdown-header:hover .dropbtn {
-  border-radius: 8px;
-}
-
-.dropdown-content-header a:hover {
-  background-color: #17C2EC;
-  color: #FFF;
-  font-size: 14px;
-  font-weight: 500;
-} */
 
 .content-header {
   /* max-width: 305px; */
