@@ -327,3 +327,222 @@ header {
 .submit-header:hover {
   background-color: aqua;
 }
+
+
+@media screen and (min-width: 768px) {
+  /* header {
+    position: relative;
+    background-image: url("/src/assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+  .button-header {
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+  }
+
+  .get-vaccine,
+  .help-centre {
+    max-width: 175px;
+    width: 100%;
+    height: 64px;
+  }
+
+  .header-wrapper {
+    padding: 0 50px;
+  }
+
+  .title-logo-header {
+    width: 100%;
+    height: 31.076px;
+    font-size: 25.498px;
+    font-weight: 700;
+  }
+
+  .title-header {
+    font-size: 18px;
+  }
+
+  .heading-header {
+    font-size: 36px;
+    max-width: 414px;
+    width: 100%;
+    height: 132px;
+  }
+
+  .description-header {
+    font-size: 20px;
+    max-width: 502px;
+    width: 100%;
+    height: 48px;
+  }
+
+  .image-header {
+    height: 617px;
+    width: 100%;
+    max-width: 622px;
+  }
+
+  .image-corona-vaccine-header {
+    max-width: 532.127px;
+    height: 571px;
+    width: 100%;
+  }
+
+  .doctor-avatar,
+  .corona-virus {
+    max-width: 100px;
+    height: 100px;
+    width: 100%;
+    padding: 17px 10px;
+  }
+
+  .image-doctor-avatar,
+  .image-corona-header {
+    width: 100%;
+    height: 65.389px;
+
+  }
+
+  .class-doctor {
+    max-width: 374px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    bottom: -17px;
+    box-shadow: 0 4px 4px #0000001a, 0 4px 4px #00000040;
+    margin-left: -244px;
+    padding: 20px;
+  }
+
+  .image-three-doctor {
+    max-width: 167px;
+    width: 100%;
+    height: 60px;
+
+  }
+
+  .specialist {
+    max-width: 100%;
+    max-width: 134px;
+    height: 51px;
+
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 134px;
+    height: 51px;
+    font-size: 24px;
+    /* right: 18px; */
+  }
+
+  .clock-wrap {
+    max-width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .content-clock {
+    font-size: 24px;
+    max-width: 336px;
+    width: 100%;
+  }
+
+  .address-image {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 auto;
+  }
+
+  .wrap-image-header {
+    max-width: 49.962px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .address-header {
+    padding: 37px 0 1px 12px;
+    display: flex;
+  }
+
+  .padding-address-header {
+    display: flex;
+    align-items: center;
+    width: calc(100%/2);
+    justify-content: space-around;
+    margin-bottom: 45px;
+  }
+
+  .content-address-header {
+    max-width: 246.81px;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .submit-header {
+    max-width: 253px;
+    width: 100%;
+    padding: 20px 25px;
+    height: 64px;
+    font-size: 20px;
+    margin-left: -60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-wrapper {
+    padding: 0 70px;
+  }
+
+  .header-heading {
+    max-width: 1299px;
+    width: 100%;
+  }
+
+  .icon-dropdown-header {
+    display: none;
+  }
+
+
+  .dropdown-content-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  .header-nav.responsive {
+    position: relative;
+  }
+
+  .header-nav.responsive .icon-dropdown-header {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .header-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* .header-nav.responsive .dropdown-header {
+    float: none;
+  } */
+
+  .header-nav.responsive .dropdown-content-header {
+    position: relative;
+  }
+
+  .header-nav.responsive .dropdown-header .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+}
