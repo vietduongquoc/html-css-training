@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
-header {
+.header {
   position: relative;
   background-image: url("/src/assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-style: normal;
-  line-height: normal;
-  font-family: Montserrat;
 }
 
 * {
@@ -15,12 +12,13 @@ header {
   margin: 0;
 }
 
-.header-wrapper {
-  padding: 0 35px;
+.wrap-content-header {
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .header-heading {
-  max-width: 668px;
+  /* max-width: 668px; */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -35,39 +33,35 @@ header {
 }
 
 .line-header {
-  max-width: 79.681px;
+  max-width: 80px;
   width: 100%;
-  height: 2.39px;
+  height: 3px;
   margin-top: 8px;
 }
 
 .title-logo-header {
-  color: #fff;
   font-size: 18px;
-  font-weight: 700;
   margin-right: 20px;
   width: 100%;
   padding-top: 6px;
 }
 
 .toggle-input {
-  display: none; /* ẩn checkbox đi */
+  display: none;
 }
 
 .header-nav {
-  display: none; /* ẩn .navbar sẵn */
+  display: none;
   padding-top: 7px;
 }
 
 .toggle-input:checked ~ .header-nav {
-  /* checkbox mà được check thì .navbar sẽ có style sau */
-  display: block; /* hiện .navbar */
+  display: block;
 }
 
-.content-header {
-  /* max-width: 305px; */
+/* .content-header {
   width: 100%;
-}
+} */
 
 .header-nav > a {
   text-decoration: none;
@@ -78,8 +72,7 @@ header {
 }
 
 .header-nav > a:hover {
-  color: #fff;
-  font-weight: 700;
+  color: #FFF;
   cursor: pointer;
 }
 
@@ -94,23 +87,16 @@ header {
 }
 
 .heading-header {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 800;
   padding: 2.5px 0;
 }
 
 .heading-header > p {
   color: #17c2ec;
-  font-size: 24px;
-  font-weight: 800;
 }
 
 .description-header {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-  font-weight: 700;
-  /* width: 271px; */
   height: 51px;
 }
 
@@ -125,36 +111,11 @@ header {
 
 .get-vaccine {
   padding: 17px 25px;
-  border-radius: 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  border: none;
   height: 50px;
-  background: #17c2ec;
-  align-items: center;
-}
-
-.get-vaccine:hover {
-  background-color: blue;
-  border: none;
 }
 
 .help-centre {
-  border-radius: 20px;
-  border: 2px solid #17c2ec;
-  background: rgba(196, 196, 196, 0.1);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 16px 23px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  height: 50px;
-}
-
-.help-centre:hover {
-  background: #17c2ec;
 }
 
 .image-header {
@@ -162,7 +123,6 @@ header {
   max-width: 306px;
   width: 100%;
   margin: 0 auto;
-  /* height: 309px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,7 +132,6 @@ header {
   position: absolute;
   left: 0;
   padding: 8px 5px;
-  border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   max-width: 50px;
@@ -181,7 +140,6 @@ header {
 }
 
 .image-doctor-avatar {
-  /* width: 40px; */
   height: 32.695px;
   width: 100%;
 }
@@ -189,16 +147,15 @@ header {
 .corona-virus {
   position: absolute;
   right: 0;
-  border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
   padding: 6.5px 5px;
   width: 50px;
   height: 50px;
+  border-radius: 10px;
 }
 
 .image-corona-header {
-  /* width: 40px; */
   height: 36.522px;
   width: 100%;
 }
@@ -209,13 +166,12 @@ header {
   bottom: -17px;
   border-radius: 20px;
   background: rgba(196, 196, 196, 0.2);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  /* max-width: 238px; */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 70px;
   padding: 15px;
   margin-left: -70px;
+  max-width: 238px;
 }
 
 .specialist {
@@ -226,9 +182,7 @@ header {
   max-width: 81px;
   width: 100%;
   height: 40px;
-  color: #fff;
   font-size: 14px;
-  font-weight: 700;
 }
 
 .image-three-doctor {
@@ -247,28 +201,23 @@ header {
   padding-bottom: 25px;
   display: flex;
   width: 100%;
-  justify-content: space-between;
-  color: #fff;
   align-items: center;
-  max-width: 405x;
-  width: 100%;
 }
 
 .clock-wrap {
   padding: 5px;
-  border-radius: 10px;
   background: rgba(196, 196, 196, 0.1);
   max-width: 30px;
   width: 100%;
   height: 30px;
+  margin-right: 10px;
 }
 
 .content-clock {
-  max-width: 199px;
+  /* max-width: 199px; */
   width: 100%;
   height: 17px;
   font-size: 14px;
-  font-weight: 700;
   align-items: center;
 }
 
@@ -282,9 +231,7 @@ header {
   height: 231px;
   display: flex;
   flex-direction: column;
-  color: #fff;
   font-size: 14px;
-  font-weight: 700;
   border-radius: 20px 20px 0px 0px;
   background: rgba(196, 196, 196, 0.1);
   justify-content: space-around;
@@ -300,12 +247,10 @@ header {
 }
 
 .wrap-image-header {
-  border-radius: 10px;
   background: rgba(196, 196, 196, 0.1);
   padding: 5px;
   width: 30px;
   height: 30px;
-  /* background-size: cover; */
   margin-right: 10px;
 }
 
@@ -330,22 +275,13 @@ header {
 }
 
 .submit-header {
-  display: flex;
   width: 150px;
   height: 50px;
   padding: 20px 25px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  background: #17c2ec;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  border: none;
 }
 
-.submit-header:hover {
-  background-color: aqua;
+.wrap-content-header {
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
@@ -364,15 +300,15 @@ header {
     height: 64px;
   }
 
-  .header-wrapper {
+  /* .header-wrapper {
     padding: 0 50px;
-  }
+  } */
 
   .title-logo-header {
     width: 100%;
-    height: 31.076px;
-    font-size: 25.498px;
-    font-weight: 700;
+    height: 32px;
+    font-size: 26px;
+
   }
 
   .title-header {
@@ -381,14 +317,12 @@ header {
 
   .heading-header {
     font-size: 36px;
-    /* max-width: 414px; */
     width: 100%;
     height: 132px;
   }
 
   .description-header {
     font-size: 20px;
-    /* max-width: 502px; */
     width: 100%;
     height: 48px;
   }
@@ -397,11 +331,9 @@ header {
     height: 617px;
     width: 100%;
     max-width: 622px;
-    /* margin: 0 auto; */
   }
 
   .image-corona-vaccine-header {
-    /* max-width: 532.127px; */
     height: 571px;
     width: 100%;
   }
@@ -424,10 +356,8 @@ header {
     max-width: 374px;
     width: 100%;
     height: 100px;
-    /* display: flex;
-    position: absolute; */
     bottom: -17px;
-    box-shadow: 0 4px 4px #0000001a, 0 4px 4px #00000040;
+    box-shadow: 0 4px 4px #0000001a;
     margin-left: -244px;
     padding: 20px;
   }
@@ -448,7 +378,6 @@ header {
     max-width: 134px;
     height: 51px;
     font-size: 24px;
-    /* right: 18px; */
   }
 
   .clock-wrap {
@@ -470,7 +399,7 @@ header {
   }
 
   .wrap-image-header {
-    max-width: 49.962px;
+    max-width:50px;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -490,7 +419,7 @@ header {
   }
 
   .content-address-header {
-    max-width: 246.81px;
+    max-width: 247px;
     width: 100%;
     font-size: 20px;
   }
@@ -506,15 +435,11 @@ header {
 }
 
 @media screen and (min-width: 1440px) {
-  .header-wrapper {
-    padding: 0 70px;
-  }
 
   .header-heading {
-    max-width: 1299px;
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .title-logo-header {
@@ -528,7 +453,10 @@ header {
   }
 
   .header-nav {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
   }
 
   .header-nav > a:last-child {
@@ -537,7 +465,13 @@ header {
     border-radius: 20px;
     background: rgba(196, 196, 196, 0.1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
   }
+
+  .header-nav > a:last-child:hover {
+    color: #17c2ec;
+  }
+
 
   .title-header {
     font-size: 24px;
@@ -563,12 +497,9 @@ header {
     gap: 20px;
   }
 
-  /* .image-header {
-    margin: none;
-  } */
-
   .image-address-header {
     display: flex;
     flex-wrap: nowrap;
   }
+
 }

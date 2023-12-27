@@ -1,0 +1,17 @@
+/* font-family */
+.text-font {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+}
+
+.text-title {
+  font-weight: 800;
+  font-size: 24px;
+  color: #FFF;
+}
+
+.text-description {
+  font-weight: 700;
+  color: #FFF;
+}
