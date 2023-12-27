@@ -1,0 +1,37 @@
+.about {
+  background: rgba(255, 255, 255, 0.50);
+}
+
+.wrap-about {
+  padding: 5px 0;
+}
+
+.logo-about {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+  .wrap-about {
+    padding-top: 10px 0;
+  }
+
+  .wrap-about-logo {
+    max-width: 150px;
+    object-fit: contain;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .wrap-about {
+    padding-top: 21px;
+    padding-bottom: 10px;
+  }
+
+  .wrap-about-logo {
+    width: 290px;
+    height: 118px;
+  }
+}
