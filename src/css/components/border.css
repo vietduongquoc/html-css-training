@@ -1,3 +1,7 @@
-.border {
+.border-medium {
   border-radius: 10px;
+}
+
+.border-large {
+  border-radius: 20px;
 }
