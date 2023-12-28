@@ -13,6 +13,7 @@
   font-size: 24px;
   padding-bottom: 17px;
   padding-right: 30px;
+  color: var(--text--color--primary);
 }
 
 .information-heading-text {
@@ -31,10 +32,47 @@
 .wrap-information-content {
   display: flex;
   flex-direction: column;
-  gap : 20px ;
+  gap: 20px;
   padding: 0 20px;
 }
 
 .information-content-title {
-  color:#17C2EC;
+  color: var(--text--color--second);
+}
+
+.information-content-link-text {
+  color: var(--text--color--primary);
+  margin-right: 5px;
+}
+
+.information-content-link {
+  align-items: center;
+  display: flex;
+}
+
+.information-content-description {
+  color: var(--text--color--primary);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.information-user {
+  padding: 20px 12px 26px 20px;
+  border-radius: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.50);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.information-text {
+  color: var(--text--color--primary);
+}
+
+.information-link {
+  color: var( --text--collor--third);
+  margin-right: 5px;
+}
+
+.wrap-information-icon {
+ padding-right: 152px;
 }
