@@ -1,20 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+:root {
+  --text--color--primary: #FFF;
+  --text--color--second: #17c2ec;
+  --text--collor--third: rgba(255, 255, 255, 0.5);
 
-/* font-family */
-.text-font {
-  font-family: Montserrat;
-  font-style: normal;
-  line-height: normal;
+
+  --box-shadow--color: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+
+
+  --background--color--primary: rgba(196, 196, 196, 0.1);
+  --background--color--second: rgba(196, 196, 196, 0.10);
+  --background--color--third: rgba(196, 196, 196, 0.20);
+
+
+  --border--color--primary: 3px solid rgba(196, 196, 196, 0.15);
+  --border--color--second: 3px solid rgba(255, 255, 255, 0.50);
+
 }
-
-.text-title {
-  font-weight: 800;
-  font-size: 24px;
-  color: #FFF;
-}
-
-.text-description {
-  font-weight: 700;
-  color: #FFF;
-}
-

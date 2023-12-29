@@ -1,5 +1,4 @@
-@import url(/src/css/layout/all.css);
-@import url(/src/css/components/all.css);
-@import url(/src/css/base/all.css);
-@import url(/src/css/sections/all.css);
+@import url(/src/css/components/index.css);
+@import url(/src/css/base/index.css);
+@import url(/src/css/layout/index.css);
 
