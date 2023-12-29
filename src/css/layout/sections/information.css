@@ -56,8 +56,8 @@
   font-size: 12px;
 }
 
-.information-user {
-  padding: 20px 12px 26px 20px;
+.information-user, .information-ther {
+  padding: 20px 0 30px 20px;
   border-radius: 20px;
   border: 3px solid rgba(255, 255, 255, 0.50);
   margin-top: 30px;
@@ -74,5 +74,15 @@
 }
 
 .wrap-information-icon {
- padding-right: 152px;
+ padding-right: 110px;
 }
+
+.information-text {
+  padding-bottom: 20px;
+}
+
+.information-ther-icon-image {
+  padding-bottom: 20px;
+}
+
+
