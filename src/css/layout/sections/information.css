@@ -84,6 +84,10 @@
   padding-bottom: 20px;
 }
 
+.information-content-link-icon {
+  cursor: pointer;
+}
+
 @media screen and (min-width:768px) {
   .wrap-information {
     padding-top: 58px;
@@ -117,7 +121,7 @@
   .wrap-information-content {
     padding: 0 60px 0 40px;
     flex-direction: column;
-    gap:40px;
+    gap: 40px;
     display: flex;
   }
 
@@ -126,7 +130,9 @@
     justify-content: space-between;
     padding: initial;
   }
-  .information-user, .information-ther {
+
+  .information-user,
+  .information-ther {
     max-width: 300px;
     width: 100%;
     padding: 55px 45px;
@@ -136,5 +142,57 @@
 
   .information-text {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .wrap-information {
+    padding-top: 58px;
+    padding-bottom: 80px;
+  }
+
+  .information-heading {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .information-title {
+    padding: initial;
+    max-width: 550px;
+    width: 100%;
+    font-size: 48px;
+    margin-right: 200px;
+  }
+
+  .information-heading-text {
+    padding: initial;
+    font-size: 20px;
+    max-width: 535px;
+    width: 100%;
+  }
+
+  .container-information {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1296px;
+    width: 100%;
+  }
+
+  .wrap-information-icon {
+   max-width: 720px;
+   width: 100%;
+   margin-top: 100px;
+  }
+
+  .information-user, .information-ther {
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .information-text {
+    padding-top: 35px;
+    font-size: 24px;
   }
 }
