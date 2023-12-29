@@ -8,9 +8,11 @@
 
 
   --background--color--primary: rgba(196, 196, 196, 0.1);
-  --background--color--second:rgba(196, 196, 196, 0.10);
+  --background--color--second: rgba(196, 196, 196, 0.10);
+  --background--color--third: rgba(196, 196, 196, 0.20);
 
 
-  --border--color--primary:3px solid rgba(196, 196, 196, 0.15);
+  --border--color--primary: 3px solid rgba(196, 196, 196, 0.15);
+  --border--color--second: 3px solid rgba(255, 255, 255, 0.50);
 
 }

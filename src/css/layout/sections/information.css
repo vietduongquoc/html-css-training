@@ -18,14 +18,13 @@
 
 .information-heading-text {
   color: rgba(255, 255, 255, 0.50);
-  font-size: 14px;
   font-weight: 400;
   margin-bottom: 40px;
 }
 
 .information-content {
   border-radius: 20px 80px 20px 20px;
-  background: rgba(196, 196, 196, 0.20);
+  background: var(--background--color--third);
   padding: 20px 0 32px 0;
 }
 
@@ -56,12 +55,12 @@
   font-size: 12px;
 }
 
-.information-user, .information-ther {
+.information-user,
+.information-ther {
   padding: 20px 0 30px 20px;
   border-radius: 20px;
-  border: 3px solid rgba(255, 255, 255, 0.50);
+  border: var(--border--color--second);
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .information-text {
@@ -69,12 +68,12 @@
 }
 
 .information-link {
-  color: var( --text--collor--third);
+  color: var(--text--collor--third);
   margin-right: 5px;
 }
 
 .wrap-information-icon {
- padding-right: 110px;
+  padding-right: 110px;
 }
 
 .information-text {
@@ -85,4 +84,57 @@
   padding-bottom: 20px;
 }
 
+@media screen and (min-width:768px) {
+  .wrap-information {
+    padding-top: 58px;
+    padding-bottom: 45px;
+  }
 
+  .information-title {
+    font-size: 36px;
+    padding-right: 210px;
+    padding-bottom: 40px;
+  }
+
+  .information-heading-text {
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-right: 185px;
+  }
+
+  .information-content-title {
+    font-size: 24px;
+  }
+
+  .information-content-description {
+    font-size: 18px;
+  }
+
+  .information-content {
+    padding: 40px 0 78px 0;
+  }
+
+  .wrap-information-content {
+    padding: 0 60px 0 40px;
+    flex-direction: column;
+    gap:40px;
+    display: flex;
+  }
+
+  .wrap-information-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: initial;
+  }
+  .information-user, .information-ther {
+    max-width: 300px;
+    width: 100%;
+    padding: 55px 45px;
+    margin-top: 40px;
+    border-radius: 50px;
+  }
+
+  .information-text {
+    font-size: 20px;
+  }
+}
