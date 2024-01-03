@@ -294,11 +294,11 @@
     padding-bottom: 55px;
   }
 
-  .get-vaccine,
-  .help-centre {
+  .button-header .get-vaccine,.button-header .help-centre {
     max-width: 175px;
     width: 100%;
     height: 64px;
+    border-radius: 20px;
   }
 
   .title-logo-header {
@@ -487,7 +487,7 @@
     height: 58px;
   }
 
-  .button-header {
+  .button-header  {
     max-width: 420px;
     width: 100%;
     gap: 20px;
