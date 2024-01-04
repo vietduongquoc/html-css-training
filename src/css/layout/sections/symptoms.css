@@ -81,10 +81,12 @@
   max-width: 1127px;
   width: 100%;
   padding: 0 35px 0 60px;
+  margin: 0 auto;
 }
 
 .symptoms-description-second {
   width: 100%;
+  margin: 0 auto;
   max-width: 1282px;
   padding: 0 12px 0 28px;
 }
@@ -93,6 +95,7 @@
   width: 100%;
   max-width: 1367px;
   padding: 0 6px;
+  margin: 0 auto;
 }
 
 .symptoms-description {
@@ -160,6 +163,51 @@
   }
 
   .wrap-symptoms-description {
-    gap:26px;
+    gap: 26px;
+  }
+}
+
+
+@media screen and (min-width:1440px) {
+  .wrap-symptoms {
+    padding-top: 67px;
+  }
+
+  .symptoms-content-title {
+    font-size: var(--font--size--big);
+  }
+
+  .symptoms-content-body {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .symptoms-content {
+    max-width: 955px;
+    margin-bottom: 180px;
+  }
+
+  .symptoms-content-footer {
+    font-size: var(--font--size--big);
+  }
+
+  .symptoms-humans-image {
+    height: 530px;
+    max-width: 710px;
+  }
+
+  .symptoms-image-virus {
+    height: 100px;
+    max-width: 100px;
+    margin-right: -40px;
+  }
+
+  .symptoms-description-text {
+    font-size: var(--font--size--large);
+    padding: 23px 61px 23px 127px;
+  }
+
+  .wrap-symptoms-description {
+    gap: 83px;
   }
 }
