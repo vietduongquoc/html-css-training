@@ -58,12 +58,16 @@
   width: 100%;
   font-size: 10px;
   text-align: center;
-  color:  #17C2EC;
+  color: var(--text--color--second);
 }
 
-.description-profile > a {
-  color: #17C2EC;
+.description-profile-link {
+  color: var(--text--color--second);
   cursor: pointer;
+}
+
+.description-profile-link:hover {
+  color: var(--text--collor--four);
 }
 
 @media screen and (min-width:768px) {

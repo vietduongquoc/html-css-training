@@ -39,13 +39,7 @@
   color: var(--text--color--second);
 }
 
-.information-content-link-text {
-  color: var(--text--color--primary);
-  margin-right: 5px;
-}
-
 .information-content-link {
-  align-items: center;
   display: flex;
 }
 
@@ -69,7 +63,14 @@
 
 .information-link {
   color: var(--text--collor--third);
-  margin-right: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.information-link:hover {
+  color: var(--text--color--second);
+  cursor: pointer;
 }
 
 .wrap-information-icon {
