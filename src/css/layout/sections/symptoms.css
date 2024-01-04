@@ -6,7 +6,6 @@
 
 .wrap-symptoms {
   padding-top: 25px;
-  padding-bottom: 40px;
 }
 
 .symptoms-content {
@@ -28,6 +27,7 @@
   font-weight: 800;
   color: var(--text--color--primary);
   margin: 10px 0;
+  justify-content: center;
 }
 
 .text-blue {
@@ -40,9 +40,11 @@
   font-size: var(--font--size--vrsm);
   font-weight: 500;
 }
+
 .symptoms-description {
   width: 100%;
 }
+
 .wrap-symptoms-humans-image {
   display: flex;
 }
@@ -51,6 +53,7 @@
   width: 100%;
   margin: 0 auto;
   max-width: 222px;
+  height: 170px;
 }
 
 .symptoms-image-virus {
@@ -65,11 +68,11 @@
   font-size: 9px;
   font-weight: 600;
   background: var(--background--color--primary);
-  padding: 6px;
+  padding: 6px 8px 6px 16px;
   border-radius: 6px;
 }
 
-.wrap-description-symptoms {
+.wrap-description-symptoms-element {
   display: flex;
   align-items: center;
 }
@@ -98,6 +101,65 @@
 
 .wrap-symptoms-description {
   position: absolute;
-  top :20px;
+  top: 20px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+@media screen and (min-width:768px) {
+  .wrap-symptoms {
+    padding-top: 40px;
+  }
+
+  .symptoms-content-title {
+    font-size: var(--font--size--large);
+  }
+
+  .symptoms-content-body {
+    font-size: var(--font--size--vrbig);
+    margin-bottom: 40px;
+  }
+
+  .symptoms-content {
+    max-width: 550px;
+    margin-bottom: 60px;
+  }
+
+  .symptoms-content-footer {
+    font-size: 18px;
+  }
+
+  .symptoms-humans-image {
+    height: 350px;
+    max-width: 460px;
+  }
+
+  .symptoms-image-virus {
+    height: 65px;
+    max-width: 65px;
+    margin-right: -20px;
+  }
+
+  .symptoms-description-firt {
+    padding: 0 57px 0 121px;
+  }
+
+  .symptoms-description-second {
+    padding: 0 25px 0 55px;
+  }
+
+  .symptoms-description-third {
+    padding: 0 11px 0 10px;
+  }
+
+  .symptoms-description-text {
+    font-size: 18px;
+    padding: 12px 16px 11px 33px;
+  }
+
+  .wrap-symptoms-description {
+    gap:26px;
+  }
 }
