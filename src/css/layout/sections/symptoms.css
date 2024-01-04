@@ -1,0 +1,106 @@
+.symptoms {
+  background-image: url("/src/assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrap-symptoms {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.symptoms-content {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.symptoms-content-title {
+  font-size: 12px;
+  color: var(--text--color--primary);
+}
+
+.symptoms-content-body {
+  display: flex;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text--color--primary);
+  margin: 10px 0;
+}
+
+.text-blue {
+  color: var(--text--color--second);
+  margin-left: 5px;
+}
+
+.symptoms-content-footer {
+  color: var(--text--collor--third);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.wrap-symptoms-humans-image {
+  /* position: relative; */
+  display: flex;
+  margin-top: 30px;
+}
+
+.symptoms-humans-image {
+  max-width: 225px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.symptoms-image-virus {
+  max-width: 32px;
+  height: 32px;
+  width: 100%;
+}
+
+.symptoms-description-text {
+  color: var(--text--color--second);
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.wrap-description-symptoms {
+  display: flex;
+  align-items: center;
+}
+
+.symptoms-description-firt {
+  /* position: absolute;
+  top: 10px; */
+  max-width: 287px;
+  width: 100%;
+  display: flex;
+  /* margin: 0 auto; */
+  justify-content: space-between;
+}
+
+.symptoms-description-second {
+  width: 100%;
+  display: flex;
+  max-width: 335px;
+  /* margin: 0 auto; */
+  justify-content: space-between;
+}
+
+.symptoms-description-third {
+  width: 100%;
+  display: flex;
+  max-width: 363px;
+  /* margin: 0 auto; */
+  justify-content: space-between;
+}
+
+.symptoms-description {
+  position: relative;
+}
+
+.wrap-symptoms-description {
+  position: absolute;
+  top :20px;
+  transform: translateX(100px);
+}
