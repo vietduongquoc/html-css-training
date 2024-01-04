@@ -17,13 +17,13 @@
 }
 
 .symptoms-content-title {
-  font-size: 12px;
+  font-size: var(--font--size--vrsm);
   color: var(--text--color--primary);
 }
 
 .symptoms-content-body {
   display: flex;
-  font-size: 24px;
+  font-size: var(--font--size--big);
   font-weight: 800;
   color: var(--text--color--primary);
   margin: 10px 0;
@@ -36,7 +36,7 @@
 
 .symptoms-content-footer {
   color: var(--text--collor--third);
-  font-size: 12px;
+  font-size: var(--font--size--vrsm);
   font-weight: 500;
 }
 
@@ -70,29 +70,18 @@
 }
 
 .symptoms-description-firt {
-  /* position: absolute;
-  top: 10px; */
   max-width: 287px;
   width: 100%;
-  display: flex;
-  /* margin: 0 auto; */
-  justify-content: space-between;
 }
 
 .symptoms-description-second {
   width: 100%;
-  display: flex;
   max-width: 335px;
-  /* margin: 0 auto; */
-  justify-content: space-between;
 }
 
 .symptoms-description-third {
   width: 100%;
-  display: flex;
   max-width: 363px;
-  /* margin: 0 auto; */
-  justify-content: space-between;
 }
 
 .symptoms-description {

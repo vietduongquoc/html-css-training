@@ -9,7 +9,7 @@
 }
 
 .information-title {
-  font-size: 24px;
+  font-size: var(--font--size--big);
   padding-bottom: 17px;
   padding-right: 30px;
   color: var(--text--color--primary);
@@ -45,7 +45,7 @@
 .information-content-description {
   color: var(--text--color--primary);
   font-weight: 500;
-  font-size: 12px;
+  font-size: var(--font--size--vrsm);
 }
 
 .information-user,
@@ -101,13 +101,13 @@
   }
 
   .information-heading-text {
-    font-size: 20px;
+    font-size: var(--font--size--large);
     margin-bottom: 50px;
     padding-right: 185px;
   }
 
   .information-content-title {
-    font-size: 24px;
+    font-size: var(--font--size--big);
   }
 
   .information-content-description {
@@ -141,7 +141,7 @@
   }
 
   .information-text {
-    font-size: 20px;
+    font-size: var(--font--size--large);
   }
 }
 
@@ -166,7 +166,7 @@
 
   .information-heading-text {
     padding: initial;
-    font-size: 20px;
+    font-size: var(--font--size--large);
     max-width: 535px;
     width: 100%;
   }
@@ -193,6 +193,6 @@
 
   .information-text {
     padding-top: 35px;
-    font-size: 24px;
+    font-size: var(--font--size--big);
   }
 }
