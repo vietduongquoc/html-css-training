@@ -1,5 +1,4 @@
 .information {
-  position: relative;
   background-image: url("/src/assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +9,7 @@
 }
 
 .information-title {
-  font-size: 24px;
+  font-size: var(--font--size--big);
   padding-bottom: 17px;
   padding-right: 30px;
   color: var(--text--color--primary);
@@ -25,14 +24,13 @@
 .information-content {
   border-radius: 20px 80px 20px 20px;
   background: var(--background--color--third);
-  padding: 20px 0 32px 0;
+  padding: 20px 20px 32px 20px;
 }
 
 .wrap-information-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0 20px;
 }
 
 .information-content-title {
@@ -46,7 +44,7 @@
 .information-content-description {
   color: var(--text--color--primary);
   font-weight: 500;
-  font-size: 12px;
+  font-size: var(--font--size--vrsm);
 }
 
 .information-user,
@@ -102,13 +100,13 @@
   }
 
   .information-heading-text {
-    font-size: 20px;
+    font-size: var(--font--size--large);
     margin-bottom: 50px;
     padding-right: 185px;
   }
 
   .information-content-title {
-    font-size: 24px;
+    font-size: var(--font--size--big);
   }
 
   .information-content-description {
@@ -116,11 +114,10 @@
   }
 
   .information-content {
-    padding: 40px 0 78px 0;
+    padding: 40px 60px 78px 40px;
   }
 
   .wrap-information-content {
-    padding: 0 60px 0 40px;
     flex-direction: column;
     gap: 40px;
     display: flex;
@@ -142,7 +139,7 @@
   }
 
   .information-text {
-    font-size: 20px;
+    font-size: var(--font--size--large);
   }
 }
 
@@ -167,7 +164,7 @@
 
   .information-heading-text {
     padding: initial;
-    font-size: 20px;
+    font-size: var(--font--size--large);
     max-width: 535px;
     width: 100%;
   }
@@ -194,6 +191,6 @@
 
   .information-text {
     padding-top: 35px;
-    font-size: 24px;
+    font-size: var(--font--size--big);
   }
 }

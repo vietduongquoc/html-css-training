@@ -16,4 +16,18 @@
   --border--color--primary: 3px solid rgba(196, 196, 196, 0.15);
   --border--color--second: 3px solid rgba(255, 255, 255, 0.5);
   --border--color--third:3px solid #17C2EC;
+
+  --box-shadow--color--primary: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+
+  --font--size--vrsm:12px;
+  --font--size--sm:14px;
+  --font--size--large:20px;
+  --font--size--big:24px;
+  --font--size--vrbig:32px;
 }
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+

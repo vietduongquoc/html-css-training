@@ -1,5 +1,4 @@
 .profile {
-  position: relative;
   background-image: url("/src/assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +43,7 @@
   max-width: 150px;
   background-color: var(--background--color--second);
   border: var(--border--color--primary);
-  font-size: 14px;
+  font-size: var(--font--size--sm);
 }
 
 .wrap-description-profile {
@@ -81,12 +80,12 @@
 
   .heading-profile {
     padding: 18px 0px;
-    font-size: 20px;
+    font-size: var(--font--size--large);
   }
 
   .input-profile {
     padding: 20px 200px 25px 26px;
-    font-size: 20px;
+    font-size: var(--font--size--large);
   }
 
   .content-profile {
@@ -99,7 +98,7 @@
 
   .description-profile {
     padding: 14px 0 19px 0;
-    font-size: 14px;
+    font-size: var(--font--size--sm);
   }
 }
 
@@ -114,7 +113,7 @@
 
   .heading-profile {
     padding: 36px 646px 36px 93px;
-    font-size: 24px;
+    font-size: var(--font--size--big);
   }
 
   .content-profile {
@@ -125,7 +124,7 @@
 
   .description-profile {
     padding: 20px 0 21px 0;
-    font-size: 24px;
+    font-size: var(--font--size--big);
   }
 
   .wrap-description-profile {
