@@ -1,41 +1,44 @@
 <header class="header text-font">
   <div class="container header-wrapper">
     <div class="header-heading">
-      <figure class="logo-header">
-        <figcaption class="text-description title-logo-header">Vaccination.ng</figcaption>
+      <div class="logo-header">
+        <h1 class="text-description title-logo-header">Vaccination.ng</h1>
         <img class="line-header" src="/src/assets/images/header-line-vaccination.ng.png" alt="line" />
-      </figure>
+      </div>
       <input type="checkbox" id="toggle" class="toggle-input" />
       <nav class="header-nav" id="header-topnav">
-        <a href="https://www.youtube.com/">Home</a>
-        <a href="https://www.youtube.com/">Services</a>
-        <a href="https://www.youtube.com/">Schedule</a>
-        <a href="https://www.youtube.com/">Contact us</a>
-        <a href="https://www.youtube.com/">Check Status</a>
+        <ul class="nav-links">
+          <li><a class="links" href="https://www.youtube.com/">Home</a></li>
+          <li><a class="links" href="https://www.youtube.com/">Services</a></li>
+          <li><a class="links" href="https://www.youtube.com/">Schedule</a></li>
+          <li><a class="links" href="https://www.youtube.com/">Contact us</a></li>
+        </ul>
       </nav>
       <label class="toggle-icon" for="toggle">
         <img src="/src/assets/images/header-icon-nav.png" alt="icon-nav" />
       </label>
+      <button class="button-check-status" type="Check Status"><a class="button-check-status-links" href="https://www.youtube.com/">Check
+          Status</a></button>
     </div>
     <!-- <img src="/src/assets/images/header-ellipse-nav-header.png" alt="allipse"> -->
     <div class="wrap-content-header">
       <div class="text-content-header">
-      <article class="content-header">
-        <h3 class="title-header">Get Vaccinated. Boost your Immune System</h3>
-        <h1 class="text-title heading-header">
-          COVID-19 Vaccination Got Easier With,
-          <p class="text-description">Vaccination.ng</p>
-        </h1>
-        <p class="text-description description-header">
-          Vaccination.ng will help you find the nearest centre for vaccination, in
-          all 36 states in Nigeria.
-        </p>
-      </article>
-      <div class="button-header">
-        <button class="button get-vaccine ">Get Vaccine</button>
-        <button class="button help-centre">Help Centre</button>
+        <article class="content-header">
+          <h3 class="title-header">Get Vaccinated. Boost your Immune System</h3>
+          <h3 class="text-title heading-header">
+            COVID-19 Vaccination Got Easier With,
+            <p class="text-description name-list">Vaccination.ng</p>
+          </h3>
+          <p class="text-description description-header">
+            Vaccination.ng will help you find the nearest centre for vaccination, in
+            all 36 states in Nigeria.
+          </p>
+        </article>
+        <div class="button-header">
+          <button class="button get-vaccine" type="submit">Get Vaccine</button>
+          <button class="button help-centre" type="submit">Help Centre</button>
+        </div>
       </div>
-    </div>
       <aside class="image-header">
         <figure class="border-medium doctor-avatar">
           <img class="image-doctor-avatar" src="/src/assets/images/header-doctor-avatar.png" alt="doctor" />
@@ -64,42 +67,40 @@
       <img class="border-medium clock-wrap" src="/src/assets/images/header-clock.png" alt="clock" />
       <figcaption class="text-description content-clock">Schedule your Vaccination</figcaption>
     </figure>
-    <div class="wrap-address-header">
-      <article class="address-header">
-        <div class="image-address-header">
-          <div class="padding-address-header">
-            <figure class="address-image">
-              <img class="border-medium wrap-image-header" src="/src/assets/images/header-location.png" alt="location" />
-            </figure>
-            <div class="text-description content-address-header">
-              <p class="name-address">Location</p>
-              <h4>Ikeja Lagos, Nigeria</h4>
-            </div>
-          </div>
-          <div class="padding-address-header">
-            <figure class="address-image">
-              <img class="border-medium wrap-image-header" src="/src/assets/images/header-date.png" alt="date" />
-            </figure>
-            <div class="text-description content-address-header">
-              <p class="name-address">Date</p>
-              <h4>29 February, 2022</h4>
-            </div>
-          </div>
-          <div class="padding-address-header">
-            <figure class="address-image">
-              <img class="border-medium wrap-image-header" src="/src/assets/images/header-protect.png" alt="prt" />
-            </figure>
-            <div class="text-description content-address-header">
-              <p class="name-address">Vaccine Type</p>
-              <h4>Mordena</h4>
-            </div>
-          </div>
-          <div class="padding-address-header">
-            <button class="button submit-header">Submit</button>
+    <form class="address-header" action="javascript:void(0)">
+      <div class="image-address-header">
+        <div class="wrap-address-header-text">
+          <figure class="address-image">
+            <img class="border-medium wrap-image-header" src="/src/assets/images/header-location.png" alt="location" />
+          </figure>
+          <div class="text-description content-address-header">
+            <p class="name-address">Location</p>
+            <h4>Ikeja Lagos, Nigeria</h4>
           </div>
         </div>
-      </article>
-    </div>
+        <div class="wrap-address-header-text">
+          <figure class="address-image">
+            <img class="border-medium wrap-image-header" src="/src/assets/images/header-date.png" alt="date" />
+          </figure>
+          <div class="text-description content-address-header">
+            <p class="name-address">Date</p>
+            <h4>29 February, 2022</h4>
+          </div>
+        </div>
+        <div class="wrap-address-header-text">
+          <figure class="address-image">
+            <img class="border-medium wrap-image-header" src="/src/assets/images/header-protect.png" alt="prt" />
+          </figure>
+          <div class="text-description content-address-header">
+            <p class="name-address">Vaccine Type</p>
+            <h4>Mordena</h4>
+          </div>
+        </div>
+        <div class="wrap-address-header-text">
+          <button class="button submit-header" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
   </div>
   </div>
 </header>
