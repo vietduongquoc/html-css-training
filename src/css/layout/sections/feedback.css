@@ -140,6 +140,11 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .feedback {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/src/assets/images/feedback-background.png");
+  }
   .wrap-feedback {
     padding: 57px 0 106px 0;
   }
