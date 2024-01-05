@@ -144,14 +144,17 @@
 
   .symptoms-description-firt {
     padding: 0 57px 0 121px;
+    margin: 0 auto;
   }
 
   .symptoms-description-second {
     padding: 0 25px 0 55px;
+    margin: 0 auto;
   }
 
   .symptoms-description-third {
     padding: 0 11px 0 10px;
+    margin: 0 auto;
   }
 
   .symptoms-description-text {
