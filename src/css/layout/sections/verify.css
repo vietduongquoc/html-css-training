@@ -42,7 +42,7 @@
 
 .verify-content-heading .button-status {
   padding: 16px 29px;
-  background: var(--background--color--primary);
+  /* background: var(--background--color--primary); */
 }
 
 .verify-input {
