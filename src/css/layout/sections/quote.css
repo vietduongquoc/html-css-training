@@ -8,7 +8,6 @@
   align-items: center;
   height: 210px;
   justify-content: center;
-  margin-top: 45px;
 }
 
 .quote-content {
@@ -26,17 +25,16 @@
   text-align: center;
   padding-bottom: 25px;
   font-size: 10px;
+  font-weight: 500;
 }
 .wrap-quote-input {
   display: flex;
-  /* justify-content: center; */
 }
 .quote-input {
   width: 175px;
   height: 33px;
   margin-right: -6px;
   border-radius: 20px 0px 0px 20px;
-  /* background: var(--background--color--seven); */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
   font-size: 10px;
   text-align: center;
@@ -45,4 +43,33 @@
 .quote-input-img {
   width: 60px;
   height: 40px;
+}
+
+@media screen and (min-width:768px){
+    .quote {
+        max-width: 710px;
+        height: 340px;
+        border-radius: 50px;
+    }
+    .quote-content {
+        border-radius: 50px;
+        padding: 16px 50px 50px 65px;
+    }
+    .quote-title {
+        font-size: var(--font--size--vrbig);
+        padding-bottom: 20px;
+    }
+    .quote-text {
+        font-size: var(--font--size--large);
+        padding-bottom: 30px;
+    }
+    .quote-input {
+        font-size: var(--font--size--large);
+        width: 450px;
+        height: 67px;
+    }
+    .quote-input-img {
+        width: 100px;
+        height: 80px;
+    }
 }
