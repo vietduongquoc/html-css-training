@@ -5,7 +5,8 @@
 }
 
 .wrap-feedback {
-  padding: 30px 0 45px 0;
+  padding: 30px 0;
+  margin-bottom: 150px;
 }
 
 .feedback-content-title {

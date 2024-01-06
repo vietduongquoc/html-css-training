@@ -1,0 +1,40 @@
+.footer {
+    background-image: url("/src/assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.wrap-footer {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.title-logo-footer {
+    color: var(--text--color--primary);
+    font-size: 18px;
+    max-width: 142px;
+}
+.footer-nav {
+    align-items: start;
+}
+.footer-nav-link {
+    list-style: none;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+}
+.link:hover {
+    cursor: pointer;
+    color: var(--text--color--primary);
+}
+.footer-icon {
+    max-width: 80px;
+    width: 100%;
+    height: 18px;
+}
