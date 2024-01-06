@@ -82,11 +82,14 @@
   display: none;
   margin-top: 7px;
   width: 100%;
-  background : var(--background--color--five);
+  background : var(--background--color--four);
 }
 
 .toggle-input:checked~.header-nav {
   display: block;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: var(--text--color--primary);
 }
 
 .nav-links {
@@ -108,8 +111,10 @@
 }
 
 .links:hover {
-  color: var(--text--color--primary);
+  color: var(--text--collor--four);
   cursor: pointer;
+  /* font-size: var(--font--size--big); */
+  font-weight: 800;
 }
 
 .toggle-icon {
