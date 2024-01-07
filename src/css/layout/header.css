@@ -88,8 +88,6 @@
 .toggle-input:checked~.header-nav {
   display: block;
   border-radius: 20px;
-  border-style: solid;
-  border-color: var(--text--color--primary);
 }
 
 .nav-links {
@@ -101,7 +99,7 @@
 .links {
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-right: 10px;
+  padding-right: 5px;
   display: block;
   text-decoration: none;
   color: var(--text--collor--third);
@@ -113,8 +111,7 @@
 .links:hover {
   color: var(--text--collor--four);
   cursor: pointer;
-  /* font-size: var(--font--size--big); */
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .toggle-icon {
