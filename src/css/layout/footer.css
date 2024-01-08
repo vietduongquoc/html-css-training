@@ -1,5 +1,5 @@
 .footer {
-  background-image: url("/src/assets/images/background.png");
+  background-image: url("/src/assets/images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,7 +72,7 @@
     .title-logo-footer {
       font-size: 32px;
     }
-   
+
     .link {
       font-size: var(--font--size--big);
     }
