@@ -14,9 +14,11 @@
   flex-wrap: wrap;
   margin-top: 40px;
 }
+
 .content-header {
   gap: 20px;
 }
+
 .header-heading {
   position: relative;
   display: grid;
@@ -304,9 +306,11 @@
     justify-content: space-between;
     padding-bottom: 60px;
   }
+
   .wrap-content-header {
     margin-top: 50px;
   }
+
   .button-header .get-vaccine,
   .button-header .help-centre {
     max-width: 175px;
@@ -320,6 +324,7 @@
     height: 32px;
     font-size: 26px;
   }
+
   .name-list {
     font-size: 36px;
   }
@@ -328,10 +333,11 @@
     font-size: var(--font--size--large);
   }
 
- .heading-header {
+  .heading-header {
     width: 100%;
     font-size: 36px;
   }
+
   .content-header {
     max-width: 502px;
     gap: 40px;
@@ -456,6 +462,7 @@
     justify-content: space-between;
     align-items: center;
   }
+
   .wrap-content-header {
     margin-top: 100px;
   }
@@ -527,14 +534,17 @@
     background-color: var(--background--color--five);
     cursor: pointer;
   }
+
   .button-check-status-links {
     text-decoration: none;
     color: var(--text--color--primary);
     font-size: var(--font--size--large);
   }
+
   .heading-header {
     font-size: 42px;
   }
+
   .name-list {
     font-size: 40px;
   }
