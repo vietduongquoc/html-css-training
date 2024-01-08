@@ -28,8 +28,3 @@
   --font--size--big: 24px;
   --font--size--vrbig: 36px;
 }
-
-.flex-space-between {
-  display: flex;
-  justify-content: space-between;
-}

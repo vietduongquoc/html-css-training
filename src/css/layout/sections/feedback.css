@@ -84,8 +84,6 @@
 }
 
 .wrap-feedback-dscr-content {
-  display: flex;
-  flex-direction: column;
   gap: 30px;
   margin-top: 16px;
 }
