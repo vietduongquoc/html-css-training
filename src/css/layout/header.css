@@ -77,10 +77,8 @@
   display: none;
   position: absolute;
   top: 95px;
-  border-bottom: solid color(#17C2EC);
   align-items: end;
 }
-
 
 .toggle-input:checked~.header-nav {
   display: block;
@@ -335,7 +333,6 @@
 
  .heading-header {
     width: 100%;
-    /* font-size: var(--font--size--vrbig); */
     font-size: 36px;
   }
   .content-header {
@@ -484,17 +481,16 @@
     transform: none;
     background-color: transparent;
   }
-
+  .links {
+    border: none;
+  }
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 0 23px;
+    gap: 0 50px;
     justify-content: space-between;
-    max-width: 500px;
+    max-width: 550px;
     align-items: center;
-  }
-  .links {
-    border: none;
   }
 
   .title-header {
