@@ -15,8 +15,6 @@
   margin-top: 40px;
 }
 .content-header {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
 }
 .header-heading {
@@ -35,11 +33,6 @@
 
 .button-check-status {
   display: none;
-}
-
-.logo-header {
-  display: flex;
-  flex-direction: column;
 }
 
 .line-header {
@@ -86,8 +79,6 @@
 }
 
 .nav-links {
-  display: flex;
-  flex-direction: column;
   list-style: none;
   padding: 0;
 }
