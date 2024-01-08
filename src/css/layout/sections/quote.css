@@ -33,7 +33,7 @@
 }
 .quote-input {
   width: 175px;
-  height: 33px;
+  height: 36px;
   margin-right: -6px;
   border-radius: 20px 0px 0px 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
@@ -66,7 +66,7 @@
   .quote-input {
     font-size: var(--font--size--large);
     width: 450px;
-    height: 67px;
+    height: 72px;
   }
   .quote-input-img {
     width: 100px;
@@ -92,7 +92,7 @@
   .quote-input {
     font-size: var(--font--size--large);
     width: 450px;
-    height: 67px;
+    height: 72px;
   }
   .quote-input-img {
     width: 100px;
