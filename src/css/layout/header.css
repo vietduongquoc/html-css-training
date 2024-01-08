@@ -102,13 +102,13 @@
   font-weight: 500;
   font-size: var(--font--size--large);
   text-align: right;
-  border-bottom: #17C2EC solid;
 }
 
 .links:hover {
   color: var(--text--color--primary);
   cursor: pointer;
   font-weight: 700;
+  border-bottom: #17C2EC solid;
 }
 
 .toggle-icon {
@@ -481,9 +481,7 @@
     transform: none;
     background-color: transparent;
   }
-  .links {
-    border: none;
-  }
+
   .nav-links {
     display: flex;
     flex-direction: row;
