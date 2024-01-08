@@ -109,7 +109,7 @@
 }
 
 .links:hover {
-  color: var(--text--collor--four);
+  color: var(--text--collor--primary);
   cursor: pointer;
   font-weight: 700;
 }
