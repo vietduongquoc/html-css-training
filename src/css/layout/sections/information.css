@@ -175,17 +175,18 @@
   }
 
   .wrap-information-icon {
-   max-width: 760px;
-   width: 100%;
-   justify-content: space-between;
-   align-items: flex-end;
-   flex-direction: row;
+    max-width: 760px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
   }
 
-  .information-user, .information-ther {
-   height: 350px;
-   width: 100%;
-   max-width: 350px;
+  .information-user,
+  .information-ther {
+    height: 350px;
+    width: 100%;
+    max-width: 350px;
   }
 
   .information-text {
