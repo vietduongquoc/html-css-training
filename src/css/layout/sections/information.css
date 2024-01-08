@@ -29,8 +29,6 @@
 }
 
 .wrap-information-content {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
 }
 
@@ -56,8 +54,6 @@
   max-width: 185px;
   width: 100%;
   height: 200px;
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -78,9 +74,7 @@
 }
 
 .wrap-information-icon {
-  display: flex;
   gap: 20px;
-  flex-direction: column;
 }
 
 
@@ -119,9 +113,7 @@
   }
 
   .wrap-information-content {
-    flex-direction: column;
     gap: 40px;
-    display: flex;
   }
 
   .information-user,
