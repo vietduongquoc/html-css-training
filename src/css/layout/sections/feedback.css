@@ -1,7 +1,7 @@
 .feedback {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/src/assets/images/feedback-background.png");
+  background-image: url("/src/assets/images/feedback-background.webp");
 }
 
 .wrap-feedback {
@@ -144,7 +144,7 @@
   .feedback {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/src/assets/images/feedback-background.png");
+    background-image: url("/src/assets/images/feedback-background.webp");
   }
   .wrap-feedback {
     padding: 57px 0 106px 0;
