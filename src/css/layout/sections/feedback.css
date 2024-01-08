@@ -49,8 +49,6 @@
 }
 
 .feedback-img-content {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -84,8 +82,6 @@
 }
 
 .wrap-feedback-dscr-content {
-  display: flex;
-  flex-direction: column;
   gap: 30px;
   margin-top: 16px;
 }
@@ -130,22 +126,27 @@
   .feedback-dscr-text {
     font-size: var(--font--size--sm);
   }
+
   .feedback-dscr-text-content {
     font-size: var(--font--size--large);
   }
+
   .feedback-dscr-second {
     padding: 30px 16px 45px 38px;
   }
+
   .feedback-dscr-third {
     padding: 30px 33px 44px 35px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .feedback {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("/src/assets/images/feedback-background.webp");
   }
+
   .wrap-feedback {
     padding: 57px 0 106px 0;
   }
@@ -189,14 +190,16 @@
   .feedback-dscr-text {
     font-size: var(--font--size--sm);
   }
+
   .feedback-dscr-text-content {
     font-size: var(--font--size--large);
   }
+
   .feedback-dscr-second {
     padding: 30px 16px 45px 38px;
   }
+
   .feedback-dscr-third {
     padding: 30px 33px 44px 35px;
   }
 }
-

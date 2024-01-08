@@ -22,8 +22,6 @@
 }
 
 .content-profile {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -128,7 +126,7 @@
   }
 
   .wrap-description-profile {
-    padding: 0 93px ;
+    padding: 0 93px;
   }
 
 }

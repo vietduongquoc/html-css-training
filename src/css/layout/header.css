@@ -14,11 +14,11 @@
   flex-wrap: wrap;
   margin-top: 40px;
 }
+
 .content-header {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
 }
+
 .header-heading {
   position: relative;
   display: grid;
@@ -35,11 +35,6 @@
 
 .button-check-status {
   display: none;
-}
-
-.logo-header {
-  display: flex;
-  flex-direction: column;
 }
 
 .line-header {
@@ -77,10 +72,8 @@
   display: none;
   position: absolute;
   top: 95px;
-  border-bottom: solid color(#17C2EC);
   align-items: end;
 }
-
 
 .toggle-input:checked~.header-nav {
   display: block;
@@ -88,8 +81,6 @@
 }
 
 .nav-links {
-  display: flex;
-  flex-direction: column;
   list-style: none;
   padding: 0;
 }
@@ -104,13 +95,13 @@
   font-weight: 500;
   font-size: var(--font--size--large);
   text-align: right;
-  border-bottom: #17C2EC solid;
 }
 
 .links:hover {
   color: var(--text--color--primary);
   cursor: pointer;
   font-weight: 700;
+  border-bottom: #17C2EC solid;
 }
 
 .toggle-icon {
@@ -125,6 +116,8 @@
 
 .heading-header {
   color: var(--text--color--primary);
+  font-size: var(--font--size--big);
+  font-weight: 800;
 }
 
 .description-header {
@@ -226,6 +219,7 @@
 
 .name-list {
   color: var(--text--color--second);
+  font-size: var(--font--size--big);
 }
 
 .clock-image {
@@ -312,9 +306,11 @@
     justify-content: space-between;
     padding-bottom: 60px;
   }
+
   .wrap-content-header {
     margin-top: 50px;
   }
+
   .button-header .get-vaccine,
   .button-header .help-centre {
     max-width: 175px;
@@ -329,15 +325,19 @@
     font-size: 26px;
   }
 
+  .name-list {
+    font-size: 36px;
+  }
+
   .title-header {
     font-size: var(--font--size--large);
   }
 
- .heading-header {
+  .heading-header {
     width: 100%;
-    /* font-size: var(--font--size--vrbig); */
     font-size: 36px;
   }
+
   .content-header {
     max-width: 502px;
     gap: 40px;
@@ -462,6 +462,7 @@
     justify-content: space-between;
     align-items: center;
   }
+
   .wrap-content-header {
     margin-top: 100px;
   }
@@ -488,13 +489,10 @@
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 0 23px;
+    gap: 0 50px;
     justify-content: space-between;
-    max-width: 500px;
+    max-width: 550px;
     align-items: center;
-  }
-  .links {
-    border: none;
   }
 
   .title-header {
@@ -536,9 +534,18 @@
     background-color: var(--background--color--five);
     cursor: pointer;
   }
+
   .button-check-status-links {
     text-decoration: none;
     color: var(--text--color--primary);
     font-size: var(--font--size--large);
+  }
+
+  .heading-header {
+    font-size: 42px;
+  }
+
+  .name-list {
+    font-size: 40px;
   }
 }
