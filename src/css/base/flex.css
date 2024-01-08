@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-.flex-direction-column {
+.flex-column {
 display: flex;
 flex-direction: column;
 }
