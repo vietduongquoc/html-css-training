@@ -66,7 +66,7 @@
 
 .header-nav {
   z-index: 1;
-  background: #0B153C;
+  background: #0b153c;
   width: 100%;
   margin-top: 7px;
   display: none;
@@ -75,7 +75,7 @@
   align-items: end;
 }
 
-.toggle-input:checked~.header-nav {
+.toggle-input:checked ~ .header-nav {
   display: block;
   border-radius: 5px;
 }
@@ -101,7 +101,7 @@
   color: var(--text--color--primary);
   cursor: pointer;
   font-weight: 700;
-  border-bottom: #17C2EC solid;
+  border-bottom: #17c2ec solid;
 }
 
 .toggle-icon {
@@ -455,7 +455,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-
   .header-heading {
     width: 100%;
     display: flex;

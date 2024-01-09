@@ -3,21 +3,22 @@
 }
 
 .wrap-about {
-  padding: 5px 0;
+  padding: 6px 0;
   cursor: pointer;
   display: flex;
   align-items: center;
 }
+.wrap-about-logo {
+  max-width: 73px;
+}
 
 @media screen and (min-width:768px) {
   .wrap-about {
-    padding-top: 10px 0;
+    padding: 10px 0;
   }
 
   .wrap-about-logo {
     max-width: 150px;
-    object-fit: contain;
-    height: 60px;
   }
 }
 
@@ -28,7 +29,6 @@
   }
 
   .wrap-about-logo {
-    width: 290px;
-    height: 118px;
+   max-width: 290px;
   }
 }
