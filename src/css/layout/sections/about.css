@@ -5,10 +5,7 @@
 .wrap-about {
   padding: 5px 0;
   cursor: pointer;
-}
-
-.logo-about {
-  width: 100%;
+  display: flex;
   align-items: center;
 }
 
