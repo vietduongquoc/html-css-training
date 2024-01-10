@@ -75,7 +75,7 @@
   align-items: end;
 }
 
-.toggle-input:checked ~ .header-nav {
+.toggle-input:checked~.header-nav {
   display: block;
   border-radius: 5px;
 }
@@ -126,22 +126,11 @@
   height: 51px;
 }
 
-.button-header {
+.wrap-button-header {
   width: 100%;
   max-width: 295px;
-  display: flex;
-  justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 50px;
-}
-
-.get-vaccine {
-  padding: 17px 25px;
-  height: 50px;
-}
-
-.help-centre {
-  padding: 16px 23px;
 }
 
 .image-header {
@@ -293,30 +282,15 @@
   position: relative;
 }
 
-.submit-header {
-  width: 150px;
-  padding: 20px 25px;
-}
-
 @media screen and (min-width: 768px) {
-  .button-header {
-    max-width: 370px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 60px;
-  }
-
   .wrap-content-header {
     margin-top: 50px;
   }
 
-  .button-header .get-vaccine,
-  .button-header .help-centre {
-    max-width: 175px;
+  .wrap-button-header {
+    max-width: 420px;
     width: 100%;
-    height: 64px;
-    border-radius: 20px;
+    padding-top: 100px;
   }
 
   .title-logo-header {
@@ -443,18 +417,31 @@
     width: 100%;
     font-size: var(--font--size--large);
   }
-
-  .submit-header {
-    max-width: 253px;
-    width: 100%;
-    padding: 20px 25px;
-    height: 64px;
-    font-size: var(--font--size--large);
-    margin-left: -60px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
+  .button-check-status {
+    display: block;
+    border-radius: 20px;
+    background: var(--background--color--primary);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    max-width: 220px;
+    width: 100%;
+    border: none;
+    font-size: var(--font--size--big);
+    padding: 20px 26px;
+  }
+  .button-check-status:hover {
+    background-color: var(--background--color--five);
+    cursor: pointer;
+  }
+
+  .button-check-status-links {
+    text-decoration: none;
+    color: var(--text--color--primary);
+    font-size: var(--font--size--large);
+  }
   .header-heading {
     width: 100%;
     display: flex;
@@ -505,39 +492,9 @@
     height: 58px;
   }
 
-  .button-header {
-    max-width: 420px;
-    width: 100%;
-    padding-top: 100px;
-  }
-
   .image-address-header {
     display: flex;
     flex-wrap: nowrap;
-  }
-
-  .button-check-status {
-    display: block;
-    border-radius: 20px;
-    background: var(--background--color--primary);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-weight: 700;
-    max-width: 220px;
-    width: 100%;
-    border: none;
-    font-size: var(--font--size--big);
-    padding: 20px 26px;
-  }
-
-  .button-check-status:hover {
-    background-color: var(--background--color--five);
-    cursor: pointer;
-  }
-
-  .button-check-status-links {
-    text-decoration: none;
-    color: var(--text--color--primary);
-    font-size: var(--font--size--large);
   }
 
   .heading-header {
