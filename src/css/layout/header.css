@@ -281,6 +281,11 @@
   height: 34px;
   position: relative;
 }
+.image-corona-vaccine-header {
+  height: 275px;
+  width: 100%;
+  max-width: 256px;
+}
 
 @media screen and (min-width: 768px) {
   .wrap-content-header {
@@ -331,6 +336,7 @@
   .image-corona-vaccine-header {
     height: 571px;
     width: 100%;
+    max-width: 535px;
   }
 
   .doctor-avatar,
