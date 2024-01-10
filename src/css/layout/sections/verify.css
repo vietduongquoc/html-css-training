@@ -40,15 +40,6 @@
   padding: 50px 0;
 }
 
-.verify-input {
-  border: var(--border--color--primary);
-  background: none;
-}
-
-.verify-input:hover {
-  border: var(--border--color--third);
-}
-
 .verify-input-phone {
   border-radius: 10px;
   background: var(--background--color--six);
@@ -64,16 +55,6 @@
   font-size: var(--font--size--sm);
   margin-top: 40px;
   cursor: pointer;
-}
-
-.input-fullname {
-  padding: 16px 0 17px 20px;
-  background: var(--background--color--six);
-  border: var(--border--color--primary);
-}
-
-.input-fullname:hover {
-  border: var(--border--color--third);
 }
 
 .verify-text-description {

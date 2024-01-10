@@ -29,12 +29,6 @@
   padding: 0 13px;
 }
 
-.input-profile {
-  background-color: var(--background--color--second);
-  border: var(--border--color--primary);
-  padding: 16px 80px 16px 18px;
-}
-
 .wrap-description-profile {
   padding: 0 25px;
 }
@@ -69,11 +63,6 @@
 
   .heading-profile {
     padding: 18px 0px;
-    font-size: var(--font--size--large);
-  }
-
-  .input-profile {
-    padding: 20px 200px 25px 26px;
     font-size: var(--font--size--large);
   }
 
