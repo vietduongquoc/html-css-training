@@ -40,11 +40,6 @@
   padding: 50px 0;
 }
 
-.verify-content-heading .button-status {
-  padding: 16px 29px;
-  /* background: var(--background--color--primary); */
-}
-
 .verify-input {
   border: var(--border--color--primary);
   background: none;
@@ -85,17 +80,6 @@
   font-weight: 500;
 }
 
-.button-verify {
-  padding: 20px 0;
-  max-width: 150px;
-  width: 100%;
-}
-
-.button-submit {
-  padding: 20px 0;
-  width: 100%;
-}
-
 .text-footer-verify {
   margin-top: 20px;
   font-size: var(--font--size--sm);
@@ -114,10 +98,6 @@
 
 .wrap-verify-input-button {
   gap: 20px;
-}
-
-.button-verify {
-  max-width: 210px;
 }
 
 @media screen and (min-width:768px) {
@@ -150,10 +130,6 @@
     max-width: 97px;
   }
 
-  .button-status {
-    font-size: var(--font--size--large);
-  }
-
   .wrap-verify-content-description {
     gap: 30px;
     font-size: var(--font--size--large);
@@ -177,10 +153,6 @@
   .wrap-verify-content {
     flex-direction: row-reverse;
     justify-content: space-between;
-  }
-
-  .button-verify {
-    max-width: 250px;
   }
 
   .verify-content-heading {

@@ -35,15 +35,6 @@
   padding: 16px 80px 16px 18px;
 }
 
-.button-profile {
-  padding: 20px 25px;
-  width: 100%;
-  max-width: 150px;
-  background-color: var(--background--color--second);
-  border: var(--border--color--primary);
-  font-size: var(--font--size--sm);
-}
-
 .wrap-description-profile {
   padding: 0 25px;
 }
