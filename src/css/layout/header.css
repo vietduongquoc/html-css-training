@@ -219,7 +219,7 @@
 
 .name-list {
   color: var(--text--color--second);
-  font-size: var(--font--size--big);
+  font-size: var(--font--size--sm);
 }
 
 .clock-image {
@@ -326,7 +326,7 @@
   }
 
   .name-list {
-    font-size: 36px;
+    font-size: var(--font--size--big);
   }
 
   .title-header {
@@ -542,9 +542,5 @@
 
   .heading-header {
     font-size: 46px;
-  }
-
-  .name-list {
-    font-size: 40px;
   }
 }
