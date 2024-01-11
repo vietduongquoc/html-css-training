@@ -36,17 +36,15 @@
   color: var(--text-color-primary);
 }
 
-.footer-icon {
-  max-width: 80px;
-  width: 100%;
+.link-logo {
+  width: 18px;
   height: 18px;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
   .wrap-footer {
     gap: 40px;
-    padding: 280px 50px 50px 50px ;
+    padding: 280px 50px 50px 50px;
   }
 
   .title-logo-footer {
@@ -62,9 +60,10 @@
     font-size: var(--font-size-large);
   }
 
-  .footer-icon {
-    max-width: 140px;
+  .link-logo {
+    width: 32px;
     height: 32px;
+    margin-right: 6px;
   }
 }
 
@@ -84,8 +83,9 @@
     font-size: var(--font-size-big);
   }
 
-  .footer-icon {
-    max-width: 220px;
+  .link-logo {
+    width: 50px;
     height: 50px;
+    margin-right: 10px;
   }
 }
