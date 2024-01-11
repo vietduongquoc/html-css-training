@@ -13,7 +13,7 @@
 }
 
 .title-logo-footer {
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
   font-size: 18px;
 }
 
@@ -28,12 +28,12 @@
 .link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
-  font-size: var(--font--size--sm);
+  font-size: var(--font-size-sm);
 }
 
 .link:hover {
   cursor: pointer;
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
 }
 
 .footer-icon {
@@ -59,7 +59,7 @@
   }
 
   .link {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 
   .footer-icon {
@@ -81,7 +81,7 @@
   }
 
   .link {
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
   }
 
   .footer-icon {
