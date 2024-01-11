@@ -93,7 +93,7 @@
   }
 
   .quote-text {
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
     padding-bottom: 40px;
   }
 

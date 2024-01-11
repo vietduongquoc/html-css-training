@@ -40,7 +40,7 @@
 }
 
 .button-third:hover {
-  border: var(--border--color--four);
+  border: var(--border-color-four);
 }
 
 .description-profile {
@@ -101,7 +101,7 @@
 
   .heading-profile {
     padding: 36px 640px 36px 93px;
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
   }
 
   .content-profile {
@@ -112,7 +112,7 @@
 
   .description-profile {
     padding: 20px 0 21px 0;
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
   }
 
   .wrap-description-profile {
