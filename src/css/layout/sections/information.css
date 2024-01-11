@@ -2,10 +2,10 @@
   background-image: url("/src/assets/images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 42px 35px 42px 35px;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+}
+
+.wrap-information {
+  padding: 42px 0;
 }
 
 .information-title {
@@ -89,8 +89,8 @@
 }
 
 @media screen and (min-width:768px) {
-  .information {
-    padding: 58px 70px 45px 70px;
+  .wrap-information {
+    padding: 58px 0 45px 0;
   }
 
   .information-title {
@@ -141,8 +141,8 @@
 }
 
 @media screen and (min-width:1440px) {
-  .information {
-    padding: 58px 71px 80px 71px;
+  .wrap-information {
+    padding: 58px 0 80px 0;
   }
 
   .information-heading {
