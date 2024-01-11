@@ -9,10 +9,10 @@
 }
 
 .information-title {
-  font-size: var(--font--size--big);
+  font-size: var(--font-size-big);
   padding-bottom: 17px;
   padding-right: 30px;
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
 }
 
 .information-heading-text {
@@ -23,7 +23,7 @@
 
 .information-content {
   border-radius: 20px 80px 20px 20px;
-  background: var(--background--color--third);
+  background: var(--background-color-third);
   padding: 20px 20px 32px 20px;
   margin-bottom: 40px;
 }
@@ -35,7 +35,7 @@
 }
 
 .information-content-title {
-  color: var(--text--color--second);
+  color: var(--text-color-second);
 }
 
 .information-content-link {
@@ -43,16 +43,16 @@
 }
 
 .information-content-description {
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
   font-weight: 500;
-  font-size: var(--font--size--vrsm);
+  font-size: var(--font-size-vrsm);
 }
 
 .information-user,
 .information-ther {
   padding: 30px 20px;
   border-radius: 20px;
-  border: var(--border--color--second);
+  border: var(--border-color-second);
   max-width: 185px;
   width: 100%;
   height: 200px;
@@ -62,18 +62,18 @@
 }
 
 .information-text {
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
 }
 
 .information-link {
-  color: var(--text--collor--third);
+  color: var(--text-collor-third);
   margin-right: 10px;
   text-decoration: none;
   font-weight: 700;
 }
 
 .information-link:hover {
-  color: var(--text--color--second);
+  color: var(--text-color-second);
   cursor: pointer;
 }
 
@@ -100,13 +100,13 @@
   }
 
   .information-heading-text {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
     margin-bottom: 50px;
     padding-right: 185px;
   }
 
   .information-content-title {
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
   }
 
   .information-content-description {
@@ -132,7 +132,7 @@
   }
 
   .information-text {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 
   .information-ther-icon-image {
@@ -160,7 +160,7 @@
 
   .information-heading-text {
     padding: initial;
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
     max-width: 535px;
     width: 100%;
   }
@@ -189,7 +189,7 @@
 
   .information-text {
     padding-top: 35px;
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
   }
 
   .information-content {

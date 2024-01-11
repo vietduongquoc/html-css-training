@@ -10,7 +10,7 @@
 .verify-heading {
   max-width: 230px;
   width: 100%;
-  font-size: var(--font--size--big);
+  font-size: var(--font-size-big);
 }
 
 .verify-content-heading {
@@ -25,9 +25,9 @@
   margin: 0 auto;
   max-width: 68px;
   width: 100%;
-  font-size: var(--font--size--sm);
+  font-size: var(--font-size-sm);
   text-align: center;
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
 }
 
 .wrap-verify-content-heading {
@@ -42,7 +42,7 @@
 
 .verify-input-phone {
   border-radius: 10px;
-  background: var(--background--color--six);
+  background: var(--background-color-six);
   max-width: 400px;
   width: 100%;
   padding: 7px 20px;
@@ -50,13 +50,13 @@
 }
 
 .wrap-verify-content-description {
-  font-size: var(--font--size--sm);
+  font-size: var(--font-size-sm);
 }
 
 .verify-content-description {
   gap: 20px;
   margin-bottom: 60px;
-  font-size: var(--font--size--sm);
+  font-size: var(--font-size-sm);
   margin-top: 40px;
   cursor: pointer;
 }
@@ -67,18 +67,18 @@
 
 .text-foot-verify {
   margin-top: 20px;
-  font-size: var(--font--size--sm);
+  font-size: var(--font-size-sm);
   font-weight: 600;
 }
 
 .text-foot-verify-second {
-  color: var(--text--color--second);
+  color: var(--text-color-second);
   text-decoration: none;
 }
 
 .text-foot-verify-second:hover {
   cursor: pointer;
-  color: var(--text--collor--four);
+  color: var(--text-collor-four);
 }
 
 .wrap-verify-input-button {
@@ -111,17 +111,17 @@
   }
 
   .verify-title {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
     max-width: 97px;
   }
 
   .wrap-verify-content-description {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 
   .verify-content-description {
     gap: 30px;
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 
   .verify-input-phone {
@@ -130,7 +130,7 @@
 
   .text-foot-verify {
     margin-top: 40px;
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 }
 
@@ -157,15 +157,15 @@
   }
 
   .wrap-verify-content-description {
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
   }
 
   .verify-content-description {
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
     max-width: 740px;
   }
 
   .verify-text-description {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 }
