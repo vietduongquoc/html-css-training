@@ -2,9 +2,6 @@
   background-image: url("/src/assets/images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .wrap-symptoms {

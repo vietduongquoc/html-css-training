@@ -2,17 +2,15 @@
   background-image: url("/src/assets/images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 35px;
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
 }
-
+.wrap-header {
+  padding-top: -50px;
+}
 .wrap-content-header {
   display: flex;
   flex-wrap: wrap;
@@ -285,6 +283,7 @@
   height: 34px;
   position: relative;
 }
+
 .image-corona-vaccine-header {
   height: 275px;
   width: 100%;
@@ -292,9 +291,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding: 0 50px;
-  }
   .wrap-content-header {
     margin-top: 50px;
   }
@@ -433,9 +429,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .header {
-    padding: 0 71px;
-  }
   .button-check-status {
     display: block;
     border-radius: 20px;
@@ -448,6 +441,7 @@
     font-size: var(--font--size--big);
     padding: 20px 26px;
   }
+
   .button-check-status:hover {
     background-color: var(--background--color--five);
     cursor: pointer;
@@ -458,6 +452,7 @@
     color: var(--text--color--primary);
     font-size: var(--font--size--large);
   }
+
   .header-heading {
     width: 100%;
     display: flex;
