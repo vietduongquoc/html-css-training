@@ -22,7 +22,7 @@
   margin-bottom: 10px;
 }
 
-.feedback-content-footer {
+.feedback-content-foot {
   font-size: var(--font--size--vrsm);
   text-align: center;
   max-width: 250px;
@@ -94,7 +94,7 @@
     font-size: var(--font--size--vrbig);
   }
 
-  .feedback-content-footer {
+  .feedback-content-foot {
     font-size: var(--font--size--large);
     max-width: 580px;
   }
@@ -151,7 +151,7 @@
     font-size: var(--font--size--vrbig);
   }
 
-  .feedback-content-footer {
+  .feedback-content-foot {
     font-size: var(--font--size--large);
     max-width: 950px;
   }

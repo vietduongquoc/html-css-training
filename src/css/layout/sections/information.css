@@ -2,10 +2,10 @@
   background-image: url("/src/assets/images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.wrap-information {
-  padding: 42px 0;
+  padding: 42px 35px 42px 35px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .information-title {
@@ -89,9 +89,8 @@
 }
 
 @media screen and (min-width:768px) {
-  .wrap-information {
-    padding-top: 58px;
-    padding-bottom: 45px;
+  .information {
+    padding: 58px 70px 45px 70px;
   }
 
   .information-title {
@@ -142,9 +141,8 @@
 }
 
 @media screen and (min-width:1440px) {
-  .wrap-information {
-    padding-top: 58px;
-    padding-bottom: 80px;
+  .information {
+    padding: 58px 71px 80px 71px;
   }
 
   .information-heading {
