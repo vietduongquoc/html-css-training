@@ -34,10 +34,12 @@
   flex-direction: column;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 53%;
   transform: translate(-50%, -50%);
   height: 100%;
   padding: 50px 0;
+  max-width: 200px;
+  width: 100%;
 }
 
 .verify-input-phone {
@@ -69,6 +71,8 @@
   margin-top: 20px;
   font-size: var(--font-size-sm);
   font-weight: 600;
+  display: flex;
+  justify-content: space-around;
 }
 
 .text-foot-verify-second {
