@@ -103,7 +103,7 @@
   color: var(--text-color-primary);
   cursor: pointer;
   font-weight: 700;
-  border-bottom: #17c2ec solid;
+  border-bottom: var(--border-color-third);
 }
 
 .toggle-icon {
@@ -199,6 +199,7 @@
   height: 40px;
   font-size: var(--font-size-sm);
   color: var(--text-color-primary);
+  font-weight: 700;
 }
 .name-specialists {
   color: var(--text-color-second);
@@ -211,7 +212,7 @@
 }
 
 .name-list {
-  color: var(--text-color-second); 
+  color: var(--text-color-second);
   font-size: var(--font-size-sm);
 }
 
@@ -238,6 +239,7 @@
   font-size: var(--font-size-sm);
   align-items: center;
   color: var(--text-color-primary);
+  font-weight: 700;
 }
 
 .address-header {

@@ -58,11 +58,6 @@
 /* verify */
 .button-four {
   padding: 16px 29px;
-  background-color: var(--background-color-second);
-}
-
-.button-four:hover {
-  background-color: var(--background-color-four); 
 }
 
 .button-five {
