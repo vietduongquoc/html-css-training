@@ -59,16 +59,17 @@
 
 .input-third::placeholder {
   color: var(--text-color-six);
+  font-weight: 500;
 }
 
 .input-third:hover {
-  border: var(--border-color-third);
+  border: var(--border-color-primary);
 }
 .input-third:focus {
   border-radius: 10px;
-  border: var(--border-color-third);
   color: var(--text-color-six);
   cursor: pointer;
+  border: var(--border-color-third);
 }
 
 /* quote */
