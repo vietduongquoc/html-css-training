@@ -32,14 +32,19 @@
 }
 
 .link:hover {
-  cursor: pointer;
   color: var(--text-color-primary);
   border-bottom: var(--border-color-third);
 }
 
-.link-logo {
+.size-logo {
   width: 18px;
   height: 18px;
+}
+
+.wrap-footer-logo {
+  list-style: none;
+  display: flex;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -61,7 +66,7 @@
     font-size: var(--font-size-large);
   }
 
-  .link-logo {
+  .size-logo {
     width: 32px;
     height: 32px;
     margin-right: 6px;
@@ -84,7 +89,7 @@
     font-size: var(--font-size-big);
   }
 
-  .link-logo {
+  .size-logo {
     width: 50px;
     height: 50px;
     margin-right: 10px;
