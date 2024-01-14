@@ -1,41 +1,49 @@
 /* common */
 .input {
   border-radius: 10px;
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
   font-weight: 500;
 }
 
-.input:hover {
+.input:hover,
+.input-primary:focus,
+.input-second:focus,
+.input-third:focus  {
   border-radius: 10px;
-  border: var(--border--color--third);
-  color: var(--text--color--second);
+  border: var(--border-color-third);
+  color: var(--text-color-second);
   cursor: pointer;
 }
 
 /* profile */
 .input-primary {
-  background-color: var(--background--color--second);
-  border: var(--border--color--primary);
+  background-color: var(--background-color-second);
+  border: var(--border-color-primary);
   padding: 16px 80px 16px 18px;
+  outline: none;
 }
 
+/* verify */
 .input-second {
   padding: 16px 0 17px 20px;
-  background: var(--background--color--six);
-  border: var(--border--color--primary);
+  background: var(--background-color-six);
+  border: var(--border-color-primary);
+  outline: none;
+  color: var(--text-color-six);
 }
 
 .input-second:hover {
-  border: var(--border--color--third);
+  border: var(--border-color-third);
 }
 
 .input-third {
-  border: var(--border--color--primary);
+  border: var(--border-color-primary);
   background: none;
+  outline: none;
 }
 
 .input-third:hover {
-  border: var(--border--color--third);
+  border: var(--border-color-third);
 }
 
 /* quote */
@@ -55,12 +63,12 @@
   /* profile */
   .input-primary {
     padding: 20px 200px 25px 26px;
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 
   /* quote */
   .input-four {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
     width: 450px;
     height: 72px;
   }
@@ -68,7 +76,7 @@
 
 @media screen and (min-width:1440px) {
   .input-four {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
     width: 450px;
     height: 72px;
   }

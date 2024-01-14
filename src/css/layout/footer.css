@@ -13,7 +13,7 @@
 }
 
 .title-logo-footer {
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
   font-size: 18px;
 }
 
@@ -28,25 +28,24 @@
 .link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
-  font-size: var(--font--size--sm);
+  font-size: var(--font-size-sm);
 }
 
 .link:hover {
   cursor: pointer;
-  color: var(--text--color--primary);
+  color: var(--text-color-primary);
+  border-bottom: var(--border-color-third);
 }
 
-.footer-icon {
-  max-width: 80px;
-  width: 100%;
+.link-logo {
+  width: 18px;
   height: 18px;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
   .wrap-footer {
     gap: 40px;
-    padding: 280px 50px 50px 50px ;
+    padding: 280px 50px 50px 50px;
   }
 
   .title-logo-footer {
@@ -59,12 +58,13 @@
   }
 
   .link {
-    font-size: var(--font--size--large);
+    font-size: var(--font-size-large);
   }
 
-  .footer-icon {
-    max-width: 140px;
+  .link-logo {
+    width: 32px;
     height: 32px;
+    margin-right: 6px;
   }
 }
 
@@ -81,11 +81,12 @@
   }
 
   .link {
-    font-size: var(--font--size--big);
+    font-size: var(--font-size-big);
   }
 
-  .footer-icon {
-    max-width: 220px;
+  .link-logo {
+    width: 50px;
     height: 50px;
+    margin-right: 10px;
   }
 }
