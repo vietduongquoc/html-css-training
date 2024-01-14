@@ -4,6 +4,9 @@
   background-size: cover;
   padding-top: 85px;
   padding-bottom: 32px;
+  /* max-width: 1440px;
+  width: 100%;
+  margin: 0 auto; */
 }
 
 .wrap-profile {
@@ -27,21 +30,6 @@
   margin-bottom: 20px;
   gap: 20px;
   padding: 0 13px;
-}
-
-.input-profile {
-  background-color: var(--background--color--second);
-  border: var(--border--color--primary);
-  padding: 16px 80px 16px 18px;
-}
-
-.button-profile {
-  padding: 20px 25px;
-  width: 100%;
-  max-width: 150px;
-  background-color: var(--background--color--second);
-  border: var(--border--color--primary);
-  font-size: var(--font--size--sm);
 }
 
 .wrap-description-profile {
@@ -78,11 +66,6 @@
 
   .heading-profile {
     padding: 18px 0px;
-    font-size: var(--font--size--large);
-  }
-
-  .input-profile {
-    padding: 20px 200px 25px 26px;
     font-size: var(--font--size--large);
   }
 

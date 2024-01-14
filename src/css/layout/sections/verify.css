@@ -40,20 +40,6 @@
   padding: 50px 0;
 }
 
-.verify-content-heading .button-status {
-  padding: 16px 29px;
-  /* background: var(--background--color--primary); */
-}
-
-.verify-input {
-  border: var(--border--color--primary);
-  background: none;
-}
-
-.verify-input:hover {
-  border: var(--border--color--third);
-}
-
 .verify-input-phone {
   border-radius: 10px;
   background: var(--background--color--six);
@@ -64,6 +50,10 @@
 }
 
 .wrap-verify-content-description {
+  font-size: var(--font--size--sm);
+}
+
+.verify-content-description {
   gap: 20px;
   margin-bottom: 60px;
   font-size: var(--font--size--sm);
@@ -71,53 +61,28 @@
   cursor: pointer;
 }
 
-.input-fullname {
-  padding: 16px 0 17px 20px;
-  background: var(--background--color--six);
-  border: var(--border--color--primary);
-}
-
-.input-fullname:hover {
-  border: var(--border--color--third);
-}
-
 .verify-text-description {
   font-weight: 500;
 }
 
-.button-verify {
-  padding: 20px 0;
-  max-width: 150px;
-  width: 100%;
-}
-
-.button-submit {
-  padding: 20px 0;
-  width: 100%;
-}
-
-.text-footer-verify {
+.text-foot-verify {
   margin-top: 20px;
   font-size: var(--font--size--sm);
   font-weight: 600;
 }
 
-.text-footer-verify-second {
+.text-foot-verify-second {
   color: var(--text--color--second);
   text-decoration: none;
 }
 
-.text-footer-verify-second:hover {
+.text-foot-verify-second:hover {
   cursor: pointer;
   color: var(--text--collor--four);
 }
 
 .wrap-verify-input-button {
   gap: 20px;
-}
-
-.button-verify {
-  max-width: 210px;
 }
 
 @media screen and (min-width:768px) {
@@ -150,11 +115,11 @@
     max-width: 97px;
   }
 
-  .button-status {
+  .wrap-verify-content-description {
     font-size: var(--font--size--large);
   }
 
-  .wrap-verify-content-description {
+  .verify-content-description {
     gap: 30px;
     font-size: var(--font--size--large);
   }
@@ -163,7 +128,7 @@
     max-width: 450px;
   }
 
-  .text-footer-verify {
+  .text-foot-verify {
     margin-top: 40px;
     font-size: var(--font--size--large);
   }
@@ -177,10 +142,6 @@
   .wrap-verify-content {
     flex-direction: row-reverse;
     justify-content: space-between;
-  }
-
-  .button-verify {
-    max-width: 250px;
   }
 
   .verify-content-heading {
@@ -197,6 +158,14 @@
 
   .wrap-verify-content-description {
     font-size: var(--font--size--big);
+  }
+
+  .verify-content-description {
+    font-size: var(--font--size--big);
     max-width: 740px;
+  }
+
+  .verify-text-description {
+    font-size: var(--font--size--large);
   }
 }
