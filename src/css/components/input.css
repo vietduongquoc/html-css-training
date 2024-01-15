@@ -6,7 +6,7 @@
 }
 
 .input:hover,
-.input-primary:focus, 
+.input-primary:focus,
 .input-second:focus {
   border-radius: 10px;
   border: var(--border-color-third);
@@ -52,9 +52,11 @@
 }
 
 .input-third {
-  border: var(--border-color-primary);
   background: none;
   outline: none;
+  border-color: transparent ;
+  border-width: 3px ;
+  border-style: solid;
 }
 
 .input-third::placeholder {
@@ -62,9 +64,6 @@
   font-weight: 500;
 }
 
-.input-third:hover {
-  border: var(--border-color-primary);
-}
 .input-third:focus {
   border-radius: 10px;
   color: var(--text-color-six);

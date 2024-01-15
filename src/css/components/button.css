@@ -97,6 +97,7 @@
   /* profile */
   .button-third {
     max-width: 175px;
+    font-size: var(--font-size-large);
   }
 
   /* verify */
@@ -121,5 +122,8 @@
   /* verify */
   .button-five {
     max-width: 250px;
+  }
+  .button-third {
+    font-size: var(--font-size-big);
   }
 }
