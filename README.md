@@ -23,15 +23,15 @@
 - Check performance at [Page Speed](https://pagespeed.web.dev/).
 - Use [Parcel](https://parceljs.org/languages/html/#posthtml) build tool for hot reloading + split html components.
 ## GETTING STARTED
-- Clone the repository: 
+- Clone the repository:
 ```
-git clone git@github.com:nguyenminhha/html-css-training.git 
+git clone git@github.com:nguyenminhha/html-css-training.git
 ```
 - Checkout to branch feature/html-css-practice-two:
 ```
 git checkout feature/html-css-practice-two
-``` 
-- Install packages
+```
+- Install packages:
 ```
 npm install
 ```
