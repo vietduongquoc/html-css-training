@@ -8,9 +8,11 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 .wrap-header {
-  padding-top: -50px;
+  padding: 0 35px
 }
+
 .wrap-content-header {
   display: flex;
   flex-wrap: wrap;
@@ -201,9 +203,11 @@
   color: var(--text-color-primary);
   font-weight: 700;
 }
+
 .name-specialists {
   color: var(--text-color-second);
 }
+
 .image-three-doctor {
   max-width: 108px;
   width: 100%;
@@ -295,6 +299,11 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  .wrap-header {
+    padding: 0 50px;
+  }
+
   .wrap-content-header {
     margin-top: 50px;
   }
@@ -429,6 +438,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+  .wrap-header {
+    padding: 0 70px;
+  }
+
   .button-check-status {
     display: block;
     border-radius: 20px;
@@ -505,6 +519,7 @@
     max-width: 560px;
     gap: 40px;
   }
+
   .name-list {
     font-size: 48px;
   }

@@ -1,5 +1,5 @@
 .wrap-verify {
-  padding: 35px 0 40px 0;
+  padding: 35px 35px 40px 35px;
 }
 
 .wrap-verify-content {
@@ -91,7 +91,7 @@
 
 @media screen and (min-width:768px) {
   .wrap-verify {
-    padding: 40px 0 50px 0;
+    padding: 40px 50px 50px 50px;
   }
 
   .wrap-verify-input-button {
@@ -140,7 +140,7 @@
 
 @media screen and (min-width:1440px) {
   .wrap-verify {
-    padding: 40px 0 33px 0;
+    padding: 40px 70px 33px 71px;
   }
 
   .wrap-verify-content {
