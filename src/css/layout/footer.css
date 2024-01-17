@@ -33,7 +33,7 @@
 
 .link:hover {
   color: var(--text-color-primary);
-  border-bottom: var(--border-color-third);
+  border-bottom: var(--border-color-bright-turquoise);
 }
 
 .size-logo {
