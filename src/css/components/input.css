@@ -9,8 +9,8 @@
 .input-primary:focus,
 .input-second:focus {
   border-radius: 10px;
-  border: var(--border-color-third);
-  color: var(--text-color-primary);
+  border: var(--border-color-bright-turquoise);
+  color: var(--text-color-second);
   cursor: pointer;
 }
 
@@ -30,25 +30,14 @@
 /* verify */
 .input-second {
   padding: 16px 0 17px 20px;
-  background: var(--background-color-six);
+  background: var(--background-color-cod-gray);
   border: var(--border-color-primary);
   outline: none;
-  color: var(--text-color-six);
-}
-
-.input-second::placeholder {
-  color: var(--text-color-six);
+  color: var(--text-color-black);
 }
 
 .input-second:hover {
-  border: var(--border-color-third);
-}
-
-.input-second:focus {
-  border-radius: 10px;
-  border: var(--border-color-third);
-  color: var(--text-color-six);
-  cursor: pointer;
+  border: var(--border-color-bright-turquoise);
 }
 
 .input-third {
@@ -59,16 +48,8 @@
   border-style: solid;
 }
 
-.input-third::placeholder {
-  color: var(--text-color-six);
-  font-weight: 500;
-}
-
-.input-third:focus {
-  border-radius: 10px;
-  color: var(--text-color-six);
-  cursor: pointer;
-  border: var(--border-color-third);
+.input-third:hover {
+  border: var(--border-color-bright-turquoise);
 }
 
 /* quote */

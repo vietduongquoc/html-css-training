@@ -3,7 +3,7 @@
 }
 
 .wrap-about {
-  padding: 6px 0;
+  padding: 6px 35px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
 
 @media screen and (min-width:768px) {
   .wrap-about {
-    padding: 10px 0;
+    padding: 10px 50px;
   }
 
   .wrap-about-logo {
@@ -26,6 +26,8 @@
   .wrap-about {
     padding-top: 21px;
     padding-bottom: 10px;
+    padding-left: 71px;
+    padding-right: 70px;
   }
 
   .wrap-about-logo {

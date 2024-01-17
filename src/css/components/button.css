@@ -1,7 +1,7 @@
 /* common */
 .button {
   border-radius: 10px;
-  background: var(--background-color-four);
+  background: var(--background-color-bright-turquoise);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   color: var(--text-color-primary);
   border: none;
@@ -11,7 +11,7 @@
 }
 
 .button:hover {
-  background-color: var(--background-color-five);
+  background-color: var(--background-color-blue);
   border: none;
   cursor: pointer;
 }
@@ -42,7 +42,7 @@
   width: 100%;
   max-width: 150px;
   background-color: var(--background-color-second);
-  border: var(--border-color-third);
+  border: var(--border-color-second);
   font-size: var(--font-size-sm);
   color: var(--text-color-second);
   border-radius: 10px;
@@ -50,8 +50,8 @@
 }
 
 .button-third:hover {
-  color: var(--text-collor-four);
-  border: var(--border-color-four);
+  color: var( --text-collor-blue);
+  border: var(--border-color-bright-turquoise);
   cursor: pointer;
 }
 

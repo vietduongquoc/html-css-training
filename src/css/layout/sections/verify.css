@@ -1,5 +1,5 @@
 .wrap-verify {
-  padding: 35px 0 40px 0;
+  padding: 35px 35px 40px 35px;
 }
 
 .wrap-verify-content {
@@ -44,7 +44,7 @@
 
 .verify-input-phone {
   border-radius: 10px;
-  background: var(--background-color-six);
+  background: var(--background-color-cod-gray);
   max-width: 400px;
   width: 100%;
   padding: 7px 20px;
@@ -96,7 +96,7 @@
 
 .text-foot-verify-second:hover {
   cursor: pointer;
-  color: var(--text-collor-four);
+  color: var(--text-collor-blue);
 }
 
 .wrap-verify-input-button {
@@ -105,7 +105,7 @@
 
 @media screen and (min-width:768px) {
   .wrap-verify {
-    padding: 40px 0 50px 0;
+    padding: 40px 50px 50px 50px;
   }
 
   .wrap-verify-input-button {
@@ -154,7 +154,7 @@
 
 @media screen and (min-width:1440px) {
   .wrap-verify {
-    padding: 40px 0 33px 0;
+    padding: 40px 70px 33px 71px;
   }
 
   .wrap-verify-content {

@@ -5,7 +5,7 @@
 }
 
 .wrap-information {
-  padding: 42px 0;
+  padding: 42px 35px;
 }
 
 .information-title {
@@ -23,7 +23,7 @@
 
 .information-content {
   border-radius: 20px 80px 20px 20px;
-  background: var(--background-color-third);
+  background: var(--background-color-second);
   padding: 20px 20px 32px 20px;
   margin-bottom: 40px;
 }
@@ -66,7 +66,7 @@
 }
 
 .information-link {
-  color: var(--text-collor-third);
+  color: var(--text-collor-abbey);
   margin-right: 10px;
   text-decoration: none;
   font-weight: 700;
@@ -90,7 +90,7 @@
 
 @media screen and (min-width:768px) {
   .wrap-information {
-    padding: 58px 0 45px 0;
+    padding: 58px 50px 45px 50px;
   }
 
   .information-title {
@@ -142,7 +142,7 @@
 
 @media screen and (min-width:1440px) {
   .wrap-information {
-    padding: 58px 0 80px 0;
+    padding: 58px 70px 80px 70px;
   }
 
   .information-heading {
@@ -167,9 +167,7 @@
 
   .container-information {
     display: flex;
-    justify-content: space-between;
-    max-width: 1296px;
-    width: 100%;
+    gap: 40px;
   }
 
   .wrap-information-icon {
@@ -178,6 +176,7 @@
     justify-content: space-between;
     align-items: flex-end;
     flex-direction: row;
+    gap: 40px;
   }
 
   .information-user,
