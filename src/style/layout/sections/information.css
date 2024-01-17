@@ -29,8 +29,6 @@
 }
 
 .wrap-information-content {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
 }
 
@@ -140,6 +138,7 @@
 
   .wrap-information-icon {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -171,7 +170,6 @@
   .container-information {
     display: flex;
     gap: 40px;
-    justify-content: space-between;
   }
 
   .wrap-information-icon {
