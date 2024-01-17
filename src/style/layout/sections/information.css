@@ -83,7 +83,6 @@
   flex-direction: column;
 }
 
-
 .information-content-link-icon {
   cursor: pointer;
 }
@@ -138,6 +137,10 @@
   .information-ther-icon-image {
     margin-bottom: 20px;
   }
+
+  .wrap-information-icon {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width:1440px) {
@@ -176,8 +179,6 @@
     width: 100%;
     justify-content: space-between;
     align-items: flex-end;
-    flex-direction: row;
-    gap: 40px;
   }
 
   .information-user,
