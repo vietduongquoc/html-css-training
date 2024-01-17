@@ -53,7 +53,7 @@
 }
 
 .verify-input-phone:hover {
-  border: var(--border-color-third);
+  border: var(--border-color-bright-turquoise);
 }
 
 .wrap-verify-content-description {
