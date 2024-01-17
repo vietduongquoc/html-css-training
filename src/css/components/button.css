@@ -19,7 +19,15 @@
 /* header  */
 .button-primary {
   padding: 17px 25px;
-  height: 50px;
+  height: 52px;
+  background-color: var(--background-color-second);
+  border-radius: 20px;
+  border: var(--border-color-third);
+}
+
+.button-primary:hover {
+  background-color: var(--background-color-four);
+  border: var(--border-color-third);
 }
 
 .button-second {
@@ -49,7 +57,12 @@
 
 /* verify */
 .button-four {
-  padding: 16px 10px;
+  padding: 16px 29px;
+  background-color: var(--background-color-second);
+}
+
+.button-four:hover {
+  background-color: var(--background-color-four);
 }
 
 .button-five {
@@ -63,8 +76,7 @@
   width: 100%;
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   /* header */
   .button-primary {
     max-width: 175px;
@@ -85,6 +97,7 @@
   /* profile */
   .button-third {
     max-width: 175px;
+    font-size: var(--font-size-large);
   }
 
   /* verify */
@@ -97,8 +110,7 @@
   }
 }
 
-@media screen and (min-width:1440px) {
-
+@media screen and (min-width: 1440px) {
   /* header */
   .button-second {
     max-width: 200px;
@@ -111,6 +123,7 @@
   .button-five {
     max-width: 250px;
   }
-
+  .button-third {
+    font-size: var(--font-size-big);
+  }
 }
-

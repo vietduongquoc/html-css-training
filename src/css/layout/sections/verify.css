@@ -49,6 +49,11 @@
   width: 100%;
   padding: 7px 20px;
   cursor: pointer;
+  border: var(--border-color-primary);
+}
+
+.verify-input-phone:hover {
+  border: var(--border-color-third);
 }
 
 .wrap-verify-content-description {
@@ -78,6 +83,15 @@
 .text-foot-verify-second {
   color: var(--text-color-second);
   text-decoration: none;
+}
+
+.text-foot-verify-firt {
+  color: var(--text-color-third);
+}
+
+.text-foot-verify-firt:hover {
+  cursor: pointer;
+  color: var(--text-collor-four);
 }
 
 .text-foot-verify-second:hover {

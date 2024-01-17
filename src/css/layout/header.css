@@ -9,9 +9,11 @@
   margin: 0;
 }
 
+
 .wrap-header {
   padding: 0 35px
 }
+
 
 .wrap-content-header {
   display: flex;
@@ -87,6 +89,7 @@
 .nav-links {
   list-style: none;
   padding: 0;
+  border-color: transparent;
 }
 
 .links {
@@ -99,6 +102,9 @@
   font-weight: 500;
   font-size: var(--font-size-large);
   text-align: right;
+  border-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
 }
 
 .links:hover {
@@ -204,9 +210,11 @@
   font-weight: 700;
 }
 
+
 .name-specialists {
   color: var(--text-color-second);
 }
+
 
 .image-three-doctor {
   max-width: 108px;
@@ -519,6 +527,7 @@
     max-width: 560px;
     gap: 40px;
   }
+
 
   .name-list {
     font-size: 48px;
