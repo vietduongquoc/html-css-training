@@ -19,15 +19,14 @@
 /* header  */
 .button-primary {
   padding: 17px 25px;
-  height: 52px;
-  background-color: var(--background-color-second);
+  background-color: #0a1852;
   border-radius: 20px;
-  border: var(--border-color-third);
+  border: var(--border-color-bright-turquoise);
 }
 
 .button-primary:hover {
-  background-color: var(--background-color-four);
-  border: var(--border-color-third);
+  background-color: var(--background-color-bright-turquoise);
+  border: var(--border-color-bright-turquoise);
 }
 
 .button-second {
@@ -42,7 +41,7 @@
   width: 100%;
   max-width: 150px;
   background-color: var(--background-color-second);
-  border: var(--border-color-second);
+  border: var(--border-color-bright-turquoise);
   font-size: var(--font-size-sm);
   color: var(--text-color-second);
   border-radius: 10px;
@@ -50,7 +49,7 @@
 }
 
 .button-third:hover {
-  color: var( --text-collor-blue);
+  color: var(--text-collor-blue);
   border: var(--border-color-bright-turquoise);
   cursor: pointer;
 }
@@ -62,7 +61,7 @@
 }
 
 .button-four:hover {
-  background-color: var(--background-color-four);
+  background-color: var(--background-color-bright-turquoise);
 }
 
 .button-five {
@@ -77,6 +76,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
   /* header */
   .button-primary {
     max-width: 175px;
@@ -111,6 +111,7 @@
 }
 
 @media screen and (min-width: 1440px) {
+
   /* header */
   .button-second {
     max-width: 200px;
@@ -123,6 +124,7 @@
   .button-five {
     max-width: 250px;
   }
+
   .button-third {
     font-size: var(--font-size-big);
   }

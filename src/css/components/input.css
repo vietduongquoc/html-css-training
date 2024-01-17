@@ -33,6 +33,9 @@
   background: var(--background-color-cod-gray);
   border: var(--border-color-primary);
   outline: none;
+}
+
+.input-second::placeholder {
   color: var(--text-color-black);
 }
 
@@ -48,8 +51,8 @@
   border-style: solid;
 }
 
-.input-third:hover {
-  border: var(--border-color-bright-turquoise);
+.input-third::placeholder {
+  color: var(--text-color-black);
 }
 
 /* quote */
