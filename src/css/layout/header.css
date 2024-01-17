@@ -475,7 +475,6 @@
   }
 
   .title-logo-header {
-    margin-right: 150px;
     font-size: var(--font-size-vrbig);
     height: 40px;
   }
@@ -491,6 +490,7 @@
     align-items: center;
     transform: none;
     background-color: transparent;
+    justify-content: space-around;
   }
 
   .nav-links {
