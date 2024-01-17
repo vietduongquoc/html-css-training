@@ -8,9 +8,11 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 .wrap-header {
   padding-top: -50px;
 }
+
 .wrap-content-header {
   display: flex;
   flex-wrap: wrap;
@@ -85,6 +87,7 @@
 .nav-links {
   list-style: none;
   padding: 0;
+  border-color: transparent;
 }
 
 .links {
@@ -97,13 +100,18 @@
   font-weight: 500;
   font-size: var(--font-size-large);
   text-align: right;
+  border-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
 }
 
 .links:hover {
   color: var(--text-color-primary);
   cursor: pointer;
-  font-weight: 700;
-  border-bottom: var(--border-color-third);
+  font-weight: 500;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #17c2ec;
 }
 
 .toggle-icon {
@@ -201,9 +209,11 @@
   color: var(--text-color-primary);
   font-weight: 700;
 }
+
 .name-specialists {
   color: var(--text-color-second);
 }
+
 .image-three-doctor {
   max-width: 108px;
   width: 100%;
@@ -505,6 +515,7 @@
     max-width: 560px;
     gap: 40px;
   }
+
   .name-list {
     font-size: 48px;
   }

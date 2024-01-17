@@ -85,6 +85,15 @@
   text-decoration: none;
 }
 
+.text-foot-verify-firt {
+  color: var(--text-color-third);
+}
+
+.text-foot-verify-firt:hover {
+  cursor: pointer;
+  color: var(--text-collor-four);
+}
+
 .text-foot-verify-second:hover {
   cursor: pointer;
   color: var(--text-collor-four);
