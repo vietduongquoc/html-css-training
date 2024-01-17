@@ -23,7 +23,7 @@
 
 .information-content {
   border-radius: 20px 80px 20px 20px;
-  background: var(--background-color-third);
+  background: var(--background-color-second);
   padding: 20px 20px 32px 20px;
   margin-bottom: 40px;
 }
@@ -66,7 +66,7 @@
 }
 
 .information-link {
-  color: var(--text-collor-third);
+  color: var(--text-collor-abbey);
   margin-right: 10px;
   text-decoration: none;
   font-weight: 700;

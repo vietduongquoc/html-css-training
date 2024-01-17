@@ -35,8 +35,9 @@
   margin-left: 5px;
 }
 
-.symptoms-content-footer {
-  color: var(--text-collor-third);
+.symptoms-content-foot
+ {
+  color: var(--text-collor-abbey);
   font-size: var(--font-size-vrsm);
   font-weight: 500;
 }
@@ -125,7 +126,8 @@
     margin-bottom: 60px;
   }
 
-  .symptoms-content-footer {
+  .symptoms-content-foot
+ {
     font-size: 18px;
   }
 
@@ -184,7 +186,8 @@
     margin-bottom: 60px;
   }
 
-  .symptoms-content-footer {
+  .symptoms-content-foot
+ {
     font-size: var(--font-size-large)
   }
 

@@ -16,7 +16,7 @@
 }
 
 .wrap-profile:hover {
-  border: var(--border-color-third);
+  border: var(--border-color-bright-turquoise);
   cursor: pointer;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .button-third:hover {
-  border: var(--border-color-four);
+  border: var(--border-color-blue);
 }
 
 .description-profile {
@@ -61,7 +61,7 @@
 }
 
 .description-profile-link:hover {
-  color: var(--text-collor-four);
+  color: var(--text-collor-blue);
 }
 
 @media screen and (min-width:768px) {
