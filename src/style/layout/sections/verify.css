@@ -27,7 +27,7 @@
   width: 100%;
   font-size: var(--font-size-sm);
   text-align: center;
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
 }
 
 .wrap-verify-content-heading {
@@ -81,22 +81,22 @@
 }
 
 .text-foot-verify-second {
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
   text-decoration: none;
 }
 
 .text-foot-verify-firt {
-  color: var(--text-color-third);
+  color: var(--text-color-abbey);
 }
 
 .text-foot-verify-firt:hover {
   cursor: pointer;
-  color: var(--text-collor-four);
+  color: var(--text-collor-dark-blue);
 }
 
 .text-foot-verify-second:hover {
   cursor: pointer;
-  color: var(--text-collor-blue);
+  color: var(--text-collor-dark-blue);
 }
 
 .wrap-verify-input-button {

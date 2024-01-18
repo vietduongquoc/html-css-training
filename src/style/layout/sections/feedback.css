@@ -11,7 +11,7 @@
 
 .feedback-content-title {
   font-size: var(--font-size-sm);
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
   text-align: center;
   margin-bottom: 10px;
 }
@@ -67,10 +67,10 @@
 }
 
 .feedback-dscr-second {
-  background: var(--background-color-bright-turquoise);
+  background: var(--background-color-second);
   border-radius: 16px;
   padding: 30px;
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
   margin: 0 auto;
 }
 

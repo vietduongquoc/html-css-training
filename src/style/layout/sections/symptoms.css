@@ -18,20 +18,20 @@
 
 .symptoms-content-title {
   font-size: var(--font-size-vrsm);
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
 }
 
 .symptoms-content-body {
   display: flex;
   font-size: var(--font-size-big);
   font-weight: 800;
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
   margin: 10px 0;
   justify-content: center;
 }
 
 .text-blue {
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
   margin-left: 5px;
 }
 
@@ -65,10 +65,10 @@
 }
 
 .symptoms-description-text {
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
   font-size: 9px;
   font-weight: 600;
-  background: var(--background-color-primary);
+  background: var(--background-color-silver);
   padding: 6px 8px 6px 16px;
   border-radius: 6px;
 }

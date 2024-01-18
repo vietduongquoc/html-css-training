@@ -1,9 +1,9 @@
 /* common */
 .button {
   border-radius: 10px;
-  background: var(--background-color-bright-turquoise);
+  background: var(--background-color-second);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
   border: none;
   align-items: center;
   font-size: 14px;
@@ -11,7 +11,7 @@
 }
 
 .button:hover {
-  background-color: var(--background-color-blue);
+  background-color: var(--background-color-primary);
   border: none;
   cursor: pointer;
 }
@@ -25,7 +25,7 @@
 }
 
 .button-primary:hover {
-  background-color: var(--background-color-bright-turquoise);
+  background-color: var(--background-color-second);
   border: var(--border-color-bright-turquoise);
 }
 
@@ -40,28 +40,30 @@
   padding: 20px 25px;
   width: 100%;
   max-width: 150px;
-  background-color: var(--background-color-second);
+  background-color: var(--background-color-silver);
   border: var(--border-color-bright-turquoise);
   font-size: var(--font-size-sm);
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
   border-radius: 10px;
   font-weight: 500;
 }
 
 .button-third:hover {
-  color: var(--text-collor-blue);
-  border: var(--border-color-bright-turquoise);
+  color: blue;
+  border-width: 3px;
+  border-style: solid;
+  border-color: blue;
   cursor: pointer;
 }
 
 /* verify */
 .button-four {
   padding: 16px 29px;
-  background-color: var(--background-color-second);
+  background-color: var(--background-color-silver);
 }
 
 .button-four:hover {
-  background-color: var(--background-color-bright-turquoise);
+  background-color: var(--background-color-second);
 }
 
 .button-five {
