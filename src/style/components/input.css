@@ -1,7 +1,7 @@
 /* common */
 .input {
   border-radius: 10px;
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
   font-weight: 500;
 }
 
@@ -10,21 +10,21 @@
 .input-second:focus {
   border-radius: 10px;
   border: var(--border-color-bright-turquoise);
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
   cursor: pointer;
 }
 
 .input::placeholder {
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
 }
 
 /* profile */
 .input-primary {
-  background-color: var(--background-color-second);
+  background-color: var(--background-color-silver);
   border: var(--border-color-primary);
   padding: 16px 80px 16px 18px;
   outline: none;
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
 }
 
 /* verify */

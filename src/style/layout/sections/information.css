@@ -12,7 +12,7 @@
   font-size: var(--font-size-big);
   padding-bottom: 17px;
   padding-right: 30px;
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
 }
 
 .information-heading-text {
@@ -23,7 +23,7 @@
 
 .information-content {
   border-radius: 20px 80px 20px 20px;
-  background: var(--background-color-second);
+  background: var(--background-color-silver);
   padding: 20px 20px 32px 20px;
   margin-bottom: 40px;
 }
@@ -33,7 +33,7 @@
 }
 
 .information-content-title {
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
 }
 
 .information-content-link {
@@ -41,7 +41,7 @@
 }
 
 .information-content-description {
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
   font-weight: 500;
   font-size: var(--font-size-vrsm);
 }
@@ -60,7 +60,7 @@
 }
 
 .information-text {
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
 }
 
 .information-link {
@@ -71,7 +71,7 @@
 }
 
 .information-link:hover {
-  color: var(--text-color-second);
+  color: var(--text-color-primary);
   cursor: pointer;
 }
 

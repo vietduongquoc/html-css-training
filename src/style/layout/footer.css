@@ -13,7 +13,7 @@
 }
 
 .title-logo-footer {
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
   font-size: 18px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .link:hover {
-  color: var(--text-color-primary);
+  color: var(--text-color-second);
   border-bottom: var(--border-color-bright-turquoise);
 }
 
