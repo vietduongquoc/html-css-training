@@ -1,26 +1,26 @@
 :root {
   --text-color-primary: #17c2ec;
   --text-color-second: #fff;
-  --text-collor-abbey: rgba(255, 255, 255, 0.5);
+  --text-collor-abbey: #aabbbb;
   --text-collor-dark-blue: #0A0AD6;
-  --text-collor-abbey-dark: rgba(0, 0, 0, 0.5);
+  --text-collor-abbey-dark: #000000;
   --text-color-black: #000;
 
-  --box-shadow-color: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  --box-shadow-color: 0px 4px 4px 0px #000000d0;
 
   --background-color-primary: #0A0AD6;
   --background-color-second: #17c2ec;
-  --background-color-silver: rgba(196, 196, 196, 0.1);
-  --background-color-cod-gray: rgba(11, 21, 60, 0.15);
+  --background-color-silver: #c4c4c425;
+  --background-color-cod-gray: #0b0b0b1c;
   --background-color-white: #fff;
 
-  --border-color-primary: 3px solid rgba(196, 196, 196, 0.15);
-  --border-color-second: 3px solid rgba(255, 255, 255, 0.5);
+  --border-color-primary: 3px solid #c4c4c448;
+  --border-color-second: 3px solid #ffffff54;
   --border-color-bright-turquoise: 3px solid #17c2ec;
   --border-color-blue: 3px solid #0A0AD6;
 
 
-  --box-shadow-color-primary: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  --box-shadow-color-primary: 0px 2px 2px 0px #000000d0;
 
   --font-size-vrsm: 12px;
   --font-size-sm: 14px;
