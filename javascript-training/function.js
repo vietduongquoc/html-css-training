@@ -31,3 +31,9 @@ console.warn(fullName);
 setInterval(function () {
     console.log('Thong bao toi' + Math.random())
 }, 1000);
+
+const a = [2, 3];
+const b = [4, 5];
+
+const c = a.concat(b);
+console.log(`"c co do dai la"=${c}` , c = 4)

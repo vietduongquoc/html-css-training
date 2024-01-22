@@ -19,7 +19,7 @@ let nothing = null;
 // Undefined
 let undef;
 
-console.log(typeof num, num);
+console.log(typeof num, `${num}`);
 console.log(typeof bigInt, bigInt);
 console.log(typeof str, str);
 console.log(typeof bool, bool);
