@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span>Nhập tên</span>
+    <input id="input" value>
+    <button onclick="xin_chao()">OK</button>
+    <div id="loi_chao"></div>
+    <script>
+        const xin_chao = function () {
+            const ten = document.getElementById("input").value
+            const loi_chao = "Xin chao " + ten
+            document.getElementById("loi_chao").innerHTML = loi_chao
+        }
+        setTimeout(thong_bao = function () {
+            document.getElementById("loi_chao").innerHTML += 'Hết giờ ! Nhập gì lâu thế paa :3'  // in ra nội dung của element lời chào sau 3s
+        }, 3000);
+        document.getElementById("loi_chao").innerHTML += "Nhập tên lẹeeee !!! <br>"  // "=" cài đè dữ liệu mới vào ; còn "+=" nối thêm duex liệu vào
+        localStorage.ten = "Duong Quoc Viet"// địa chỉ của app gaaof IP:port
+        localStorage.diachi = "Da Nang" //Lư dữ liệu trên localstorage
+        console.log(localStorage.ten)// truy suất tên trong localstorage
+    </script>
+    <span>Loại Xe </span>
+    <input id="name_car" value>
+    <button onclick="car()">Yes</button>
+    <div id="Ten_hang"></div>
+    <script>
+        const car = function () {
+            const name = document.getElementById("name_car").value
+            const Loai_xe = "Ten hãng xe này là " + name
+            document.write(Loai_xe) //nó sẽ ghi đè lên toàn bộ nội dung trên trang
+        }
+    </script>
+    <script>
+        const age = 20;
+        const PI = 3.14;
+        const Gia_tien = 38.5602121;
+        console.log(typeof age.toString()) //chuyển kiểu dữ liệu thành chuỗi string
+        console.log(PI.toFixed(1))
+        console.log(Gia_tien.toFixed(1))
+        console.log(typeof Gia_tien)
+    </script>
+</body>
+
+</html>
