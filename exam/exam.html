@@ -63,6 +63,81 @@
         }
         cars.goTo('Rome')
     </script>
+    <script>// kiểm tra xem có phải kiểu dữ liệu mảng hay không
+        const is_aaray = function (input) {
+            if (toString.call(input) === "[object Array]")
+                return true;
+            return false;
+        }
+        console.log(is_aaray('Viet Duong'));
+        console.log(is_aaray([1, 2, 3, 4]))
+        console.log(typeof is_aaray([0, 0, 0]))
+        console.log(typeof is_aaray)
+    </script>
+    <script>
+        // Function to get the first n elements of an array
+        var first = function (array, n) {
+            // Check if the input array is null, return undefined if true
+            if (array == null)
+                return void 0;
+
+            // Check if the value of n is null, return the first element of the array if true
+            if (n == null)
+                return array[0];
+
+            // Check if the value of n is negative, return an empty array if true
+            if (n < 0)
+                return [];
+
+            // Use the slice method to get the first n elements of the array
+            return array.slice(0, n);
+        };
+
+        // Testing the function with various cases
+        console.log(first([7, 9, 0, -2]));
+        console.log(first([], 3));
+        console.log(first([7, 9, 0, -2, 9, 8], 5));
+        console.log(first([7, 9, 0, -2, 9, 8, 4], 6));
+        console.log(first([7, 9, 0, -2], -3));
+        console.log(first([],));
+    </script>
+    <script> // CAllBACK
+        function myFunction(param) {
+            if (typeof param === "function") {
+                param('Số ngẫu nhiên')
+            }
+        }
+        function callBack(value) {
+            console.log(value, 1, 2, 3)
+        }
+        myFunction(callBack);// đối số
+
+    </script>
+    <script>//promise
+        setTimeout(function () {
+            console.log(1); //viec 1
+            setTimeout(function () {
+                console.log(2); // viec2
+                setTimeout(function () {
+                    console.log(3); // viec 3
+                    setTimeout(function () {
+                        console.log(4)
+                    }, 2000);
+                }, 1000);
+            }, 1000);
+        }, 1000);
+    </script>
+    <script>
+        setTimeout(function () {
+            console.log("One") //so dau tien
+            setTimeout(function () {
+                console.log("two") //sothu 2
+                setTimeout(function () {
+                    console.log("three")//sothu3
+                }, 1000);
+            }, 1500);
+        }, 1500);
+    </script>
 </body>
 
 </html>
