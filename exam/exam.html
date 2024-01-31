@@ -37,7 +37,7 @@
             document.write(Loai_xe) //nó sẽ ghi đè lên toàn bộ nội dung trên trang
         }
     </script>
-    <script>
+    <!-- <script>
         const tuoi = 20;
         const PI = 3.14;
         const Gia_tien = 38.5602121;
@@ -160,22 +160,107 @@
         setTimeout(function () {
             console.log(typeof `${myName}`)
         }, 4000);
+    </script> -->
+    <!-- <script>
+        // const idols = ["huan hoa hong", "kha banh", "Tien bip", "le bao"];
+        // //    const idol = idols [2]
+        // //    const  idol = idols.at(1)
+        // const idol = idols.constructor;
+        // console.log(idol)
+        // const age = 19;
+        const ages = [32, 33, 16, 40];
+        const result = ages.filter((ages) => (ages > 18))
+        console.log(result)
     </script>
     <script>
-        const idols = ["huan hoa hong", "kha banh", "Tien bip", "le bao"];
-        //    const idol = idols [2]
-        //    const  idol = idols.at(1)
-        const idol = idols.constructor;
-        console.log(idol)
-        const age = 19;
-        const ages = [32, 33, 16 , 40];
-
-        ages.every(checkAge)
-
-        function checkAge(age) {
-            return age > 18    ;
+        function isBigEnough(value) {
+            return value >= 10;
         }
-        console.log(checkAge(age))
+
+        const filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+        // filtered is [12, 130, 44]
+        console.log(filtered)
+
+        const nameCars = ["mec", "audi", "honda", "toyoya"];
+        const chose = nameCars.filter((nameCars) => (nameCars.length >= 4))
+        console.log(chose)
+        let arr = [2, 2, 3, 4];
+        // for (var i = 0; i < 10000; i++, arr.push(i));
+        // console.log(i)
+        arr.forEach((num, index) => {
+            return arr[index] = num * 2;
+        });
+        console.log(arr)
+
+        let test = arr.map(num => {
+            return num * 2;
+        });
+        console.log(arr)
+    </script>
+    <script>
+        const classes = ["7A",'7B','7C','8A']
+
+        for (let i = 0; i < classes.length; i++) {
+            console.log(classes[i]);
+            setTimeout(function () {
+            console.log(classes[3]);
+            },2000)
+        }
+        let fullName = "DuongQuocViet"
+        for (let key in fullName) {
+            console.log(fullName[key]);
+            setTimeout(function () {
+                console.log(key)
+            }, 3000);
+        }
+    </script> -->
+    <script>
+        var courses = [
+            {
+                id: 1,
+                name: 'Javascript',
+                coin: 0
+            },
+            {
+                id: 2,
+                name: 'Ruby',
+                coin: 1
+            },
+            {
+                id: 3,
+                name: 'Dart',
+                coin: 0
+            },
+        ];
+
+        courses.forEach(function (course, index) {
+            console.log(index, course)
+        });
+        // let isFree = courses.every(function (course, index) {
+        //     return course.coin === 0;
+        // });
+        // console.log(isFree);
+        // let isFree = courses.some(function (course, index) {
+        //        return course.coin === 2;
+        // });
+        // console.log(isFree)
+        // var findText = courses.find(function (course, index) {
+        //     return course.coin === 0;
+        // });
+        // console.log(findText)
+        // var findNumber = courses.filter(function (course, index) {
+        //     return course.coin === 0;
+        //  });
+        //  console.log(findNumber)
+        var newCourses = courses.map(function courseHandle(course) {
+            console.log(course);
+            return {
+                id: course.id,
+                name: "Khoa hoc  " + course.name,
+                coin: course.coin
+            }
+        });
+        console.log(newCourses);
     </script>
 </body>
 
