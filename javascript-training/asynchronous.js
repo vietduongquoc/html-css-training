@@ -42,9 +42,9 @@ const getData = (successRate = 0.5, latency = 1000) => new Promise((resolve, rej
     }
 });
 
-getData()
-    .then(data => console.log(data))
-    .catch(err => console.error(err));
+// getData()
+//     .then(data => console.log(data))
+//     .catch(err => console.error(err));
 
 // Promise chaining
 new Promise((resolve, reject) => setTimeout(() => resolve(1), 1000))
@@ -61,3 +61,6 @@ new Promise((resolve, reject) => setTimeout(() => resolve(1), 1000))
             setTimeout(() => resolve(result * 2), 1000);
         });
     }).then(result => console.log(result)); // 4
+
+
+document.write('HELLO GUYS !!!');

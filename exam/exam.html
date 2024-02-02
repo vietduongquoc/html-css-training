@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <h1 class="heading">EXAMS</h1>
     <span>Nhập tên</span>
     <input id="input" value>
     <button onclick="xin_chao()">OK</button>
@@ -22,7 +23,7 @@
             document.getElementById("loi_chao").innerHTML += 'Hết giờ ! Nhập gì lâu thế paa :3'  // in ra nội dung của element lời chào sau 3s
         }, 3000);
         document.getElementById("loi_chao").innerHTML += "Nhập tên lẹeeee !!! <br>"  // "=" cài đè dữ liệu mới vào ; còn "+=" nối thêm duex liệu vào
-        localStorage.ten = "Duong Quoc Viet"// địa chỉ của app gaaof IP:port
+        localStorage.ten = "Duong Quoc Viet"// địa chỉ của app gom IP:port
         localStorage.diachi = "Da Nang" //Lư dữ liệu trên localstorage
         console.log(localStorage.ten)// truy suất tên trong localstorage
     </script>
@@ -262,6 +263,12 @@
         });
         console.log(newCourses);
     </script>
+    <script>
+        document.write('Tetttttttttttt');
+        let headingNode = document.querySelectorAll('.heading');
+        console.log(headingNode);
+    </script>
+    form.form-header
 </body>
 
 </html>
